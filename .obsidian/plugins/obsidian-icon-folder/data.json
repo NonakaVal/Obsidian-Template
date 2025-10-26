@@ -38,7 +38,6 @@
   "Calendar & Review": "LiCalendar",
   "Projects & Areas": "LiFolderGit2",
   "Atlas/Conceitos": "LiNotebookPen",
-  "Atlas/Conceitos/+ Entendendo o básico": "LiNotepadText",
   "Atlas/Conceitos/ACE & ARC Frameworks": "LiFolderTree",
   "Atlas/Conceitos/Arquiteto & Jardineiro": "LiLeaf",
   "Atlas/Maps": "LiFolderPlus",
@@ -52,5 +51,6 @@
   "System/Assets": "LiSwatchBook",
   "System/Collections": "LiFolders",
   "System/Media": "LiFolderDot",
-  "System/Templates": "LiLayoutTemplate"
+  "System/Templates": "LiLayoutTemplate",
+  "Atlas/Conceitos/+ Entendendo o básico": "LiNotepadText"
 }

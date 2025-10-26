@@ -1,9 +1,20 @@
+
 ```dataviewjs
 // =============================
 // 📊 ANÁLISE DE HUMOR (7 dias)
 // =============================
-const startDate = moment('<% tp.date.now("YYYY-MM-DD", -7) %>', 'YYYY-MM-DD');
+const CONFIG = {
+    tag: "#calendar/daily",      // Tag usada para filtrar notas
+    sectionHeader: "Logs",       // Cabeçalho da seção alvo
+    rangeDays: <% tp.system.prompt("RangeDays Count")%>,               // Intervalo em dias (padrão: últimos 30)
+    sortOrder: "desc"            // Opções: "asc" | "desc"
+};
+//-----------------------------------------------------
+// 🗓️ INTERVALO DE DATAS
+//-----------------------------------------------------
 const endDate = moment('<% tp.date.now("YYYY-MM-DD") %>', 'YYYY-MM-DD');
+const startDate = moment(endDate).subtract(CONFIG.rangeDays, 'days');
+
 
 const moodScale = {
     "😄 – Happy": 5, "🙂 – Neutral": 4, "😐 – Meh": 3, "😞 – Sad": 2, "😠 – Frustrated": 1
@@ -65,33 +76,33 @@ const summaryDiv = dv.el("div", "");
 summaryDiv.style.cssText = `
     background: rgba(0, 0, 0, 0.7);
     border-radius: 8px;
-    padding: 15px;
+    padding: 12px;
     margin-bottom: 15px;
     border-left: 4px solid #7e57c2;
 `;
 
 // Estatísticas principais
 const statsHTML = `
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 15px;">
-    <div style="text-align: center; padding: 12px; background: rgba(255,255,255,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);">
-        <div style="font-size: 0.9em; color: #e0e0e0; margin-bottom: 5px;">📅 Período</div>
-        <div style="font-weight: bold; font-size: 1.1em; color: #ffffff;">${startDate.format('DD/MM')} - ${endDate.format('DD/MM')}</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin-bottom: 12px;">
+    <div style="text-align: center; padding: 8px; background: rgba(255,255,255,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);">
+        <div style="font-size: 0.8em; color: #e0e0e0; margin-bottom: 4px;">📅 Período</div>
+        <div style="font-weight: bold; font-size: 0.9em; color: #ffffff;">${startDate.format('DD/MM')} - ${endDate.format('DD/MM')}</div>
     </div>
-    <div style="text-align: center; padding: 12px; background: rgba(255,255,255,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);">
-        <div style="font-size: 0.9em; color: #e0e0e0; margin-bottom: 5px;">📊 Média</div>
-        <div style="font-weight: bold; font-size: 1.1em; color: ${moodColors[Math.round(averageMood)] || '#ffffff'}">${averageMood}/5</div>
+    <div style="text-align: center; padding: 8px; background: rgba(255,255,255,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);">
+        <div style="font-size: 0.8em; color: #e0e0e0; margin-bottom: 4px;">📊 Média</div>
+        <div style="font-weight: bold; font-size: 0.9em; color: ${moodColors[Math.round(averageMood)] || '#ffffff'}">${averageMood}/5</div>
     </div>
-    <div style="text-align: center; padding: 12px; background: rgba(255,255,255,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);">
-        <div style="font-size: 0.9em; color: #e0e0e0; margin-bottom: 5px;">🎯 Mais Frequente</div>
-        <div style="font-weight: bold; font-size: 1.1em; color: #ffffff;">${mostFrequentMood ? moodLabels[mostFrequentMood].split(' – ')[0] : 'N/A'}</div>
+    <div style="text-align: center; padding: 8px; background: rgba(255,255,255,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);">
+        <div style="font-size: 0.8em; color: #e0e0e0; margin-bottom: 4px;">🎯 Mais Frequente</div>
+        <div style="font-weight: bold; font-size: 0.9em; color: #ffffff;">${mostFrequentMood ? moodLabels[mostFrequentMood].split(' – ')[0] : 'N/A'}</div>
     </div>
-    <div style="text-align: center; padding: 12px; background: rgba(255,255,255,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);">
-        <div style="font-size: 0.9em; color: #e0e0e0; margin-bottom: 5px;">🔍 Tendência</div>
-        <div style="font-weight: bold; font-size: 1.1em; color: #ffffff;">${trend}</div>
+    <div style="text-align: center; padding: 8px; background: rgba(255,255,255,0.15); border-radius: 6px; border: 1px solid rgba(255,255,255,0.2);">
+        <div style="font-size: 0.8em; color: #e0e0e0; margin-bottom: 4px;">🔍 Tendência</div>
+        <div style="font-weight: bold; font-size: 0.9em; color: #ffffff;">${trend}</div>
     </div>
 </div>
 
-<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 8px; background: rgba(255,255,255,0.1); padding: 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15);">
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 6px; background: rgba(255,255,255,0.1); padding: 8px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15);">
 `;
 
 // Adicionar contadores de cada humor
@@ -102,10 +113,10 @@ Object.entries(moodScale).forEach(([label, value]) => {
     const emoji = label.split(' – ')[0];
     
     summaryHTML += `
-    <div style="text-align: center; min-width: 70px; padding: 10px; background: rgba(0,0,0,0.3); border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
-        <div style="font-size: 1.8em; margin-bottom: 5px;">${emoji}</div>
-        <div style="font-weight: bold; font-size: 1.3em; color: #ffffff; margin-bottom: 3px;">${count}</div>
-        <div style="font-size: 0.85em; color: #b0b0b0; font-weight: 500;">${percentage}%</div>
+    <div style="text-align: center; min-width: 55px; padding: 6px; background: rgba(0,0,0,0.3); border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
+        <div style="font-size: 1.4em; margin-bottom: 3px;">${emoji}</div>
+        <div style="font-weight: bold; font-size: 1em; color: #ffffff; margin-bottom: 2px;">${count}</div>
+        <div style="font-size: 0.75em; color: #b0b0b0; font-weight: 500;">${percentage}%</div>
     </div>`;
 });
 
@@ -128,7 +139,7 @@ const chartData = {
             borderWidth: 2,
             tension: 0.3,
             fill: true,
-            pointRadius: 6,
+            pointRadius: 3,
             pointHoverRadius: 8
         }]
     },

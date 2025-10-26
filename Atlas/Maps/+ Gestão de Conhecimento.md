@@ -6,7 +6,7 @@
 - 📄 [[02 Nota]] (Recipiente de pensamento significativo para quem cria)
 - 📄 [[04 Entendendo Mocs]] (Mapas de Conteúdo para agrupar e navegar ideias)
 - 📄 [[03 Propriedades]] (Metadados usados para classificação)
-- 📄 [[07 Sugestões de Padrões de Classificações]] (Base em sistemas como Dewey)
+- 📄 [[07 Sugestões de Classificações]] (Base em sistemas como Dewey)
 - 📄 [[06 Boas Práticas de Classificação]] (Sugestões de padrões e boas práticas)
 - 📄 [[05 Entendendo Coleções]]
 - 📄 [[++ Gestão de Conhecimento]]

@@ -18,7 +18,7 @@ cssclasses:
 	- 📄[[02 Nota]]
 	- 🧩 [[04 Entendendo Mocs]]  
 	- 🏷️ [[06 Boas Práticas de Classificação]]  
-		-  [[07 Sugestões de Padrões de Classificações]] 
+		-  [[07 Sugestões de Classificações]] 
 - 🪐 **O Sistema ACE (Atlas, Calendar, Efforts)**  
 	-  🌐[[+ ACE Pack|Sistema ACE]]  
 		- 🧩 [[How + works|Como + Funciona]]  

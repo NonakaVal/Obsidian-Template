@@ -1,11 +1,12 @@
-```dataviewjs
+~~~dataviewjs
 //-----------------------------------------------------
 // ⚙️ CONFIGURAÇÕES — altere APENAS esta seção
 //-----------------------------------------------------
+const rangeDays = <% tp.system.prompt("RangeDays Count")%>; // Alterar o número de dias
 const CONFIG = {
     tag: "#calendar/daily",      // Tag usada para filtrar notas
     sectionHeader: "Logs",       // Cabeçalho da seção alvo
-    rangeDays: 30,               // Intervalo em dias (padrão: últimos 30)
+    rangeDays: rangeDays,        // Intervalo em dias
     sortOrder: "desc"            // Opções: "asc" | "desc"
 };
 
@@ -25,7 +26,7 @@ const categories = [
 ];
 
 //-----------------------------------------------------
-// 🗓️ INTERVALO DE DATAS — agora dinâmico e correto
+// 🗓️ INTERVALO DE DATAS
 //-----------------------------------------------------
 const endDate = moment(); // Hoje
 const startDate = moment().subtract(CONFIG.rangeDays, "days"); // X dias atrás
@@ -65,7 +66,6 @@ for (const page of pages) {
     }
 
     if (sectionContent.length > 0) {
-        // Para cada linha do conteúdo, criar uma entrada separada
         sectionContent.forEach(line => {
             // Detectar categoria baseada no emoji
             let detectedCategory = "Outros";
@@ -86,7 +86,7 @@ for (const page of pages) {
                 content: line,
                 category: detectedCategory,
                 icon: categoryIcon,
-                rawContent: line.replace(/[🧩⭐😞😤🤔✅💡⚠️🪴]/g, '').trim() // Remove emoji para display
+                rawContent: line.replace(/[🧩⭐😞😤🤔✅💡⚠️🪴]/g, '').trim()
             });
         });
     }
@@ -103,9 +103,7 @@ function renderStatsCard() {
     statsCard.style.borderRadius = "6px";
     statsCard.style.backgroundColor = "var(--background-secondary)";
     
-    let statsHTML = `
-        <div style="display: flex; justify-content: center; align-items: center; gap: 16px; margin-bottom: 8px;">
-    `;
+    let statsHTML = `<div style="display: flex; justify-content: center; align-items: center; gap: 16px; margin-bottom: 8px;">`;
     
     for (const cat of categories) {
         const count = categoryTotals[cat.name] || 0;
@@ -122,7 +120,6 @@ function renderStatsCard() {
     
     statsHTML += `</div>`;
     
-    // Total geral centralizado
     statsHTML += `
         <div style="text-align: center; padding-top: 6px; border-top: 1px solid var(--background-modifier-border);">
             <span style="font-weight: bold; font-size: 1em;">🧮 Total: ${totalLogs}</span>
@@ -151,7 +148,6 @@ const groupOptions = [
     { value: "category", text: "🎯 Agrupar por Categoria" }
 ];
 
-// Adicionar opções de categorias específicas
 categories.forEach(category => {
     const count = categoryTotals[category.name] || 0;
     groupOptions.push({
@@ -169,11 +165,10 @@ groupOptions.forEach(opt => {
 
 // Select para ordenação
 const sortSelect = document.createElement("select");
-
 const sortOptions = [
-    { value: "desc", text: "📅 Data (Mais Recente)" },
-    { value: "asc", text: "📅 Data (Mais Antiga)" },
-    { value: "category", text: "🔤 Categoria (A-Z)" }
+    { value: "desc", text: "⬆️" },
+    { value: "asc", text: "⬇️" },
+    { value: "category", text: "🔤" }
 ];
 
 sortOptions.forEach(opt => {
@@ -184,7 +179,6 @@ sortOptions.forEach(opt => {
     sortSelect.appendChild(option);
 });
 
-// Adicionar controles ao container
 controls.appendChild(document.createTextNode("Agrupar por: "));
 controls.appendChild(groupSelect);
 controls.appendChild(document.createTextNode(" Ordenar por: "));
@@ -194,31 +188,22 @@ controls.appendChild(sortSelect);
 // 📊 FUNÇÃO PARA RENDERIZAR TABELA
 //-----------------------------------------------------
 function renderTable(entries, groupBy = "none", sortBy = CONFIG.sortOrder) {
-    // Remover tabela anterior se existir
     const oldTable = dv.container.querySelector("table");
     if (oldTable) oldTable.remove();
     
     let processedEntries = [...entries];
     
-    // Aplicar ordenação
-    if (sortBy === "asc") {
-        processedEntries.sort((a, b) => a.date > b.date ? 1 : -1);
-    } else if (sortBy === "desc") {
-        processedEntries.sort((a, b) => a.date < b.date ? 1 : -1);
-    } else if (sortBy === "category") {
-        processedEntries.sort((a, b) => a.category.localeCompare(b.category));
-    }
+    if (sortBy === "asc") processedEntries.sort((a,b) => a.date > b.date ? 1 : -1);
+    else if (sortBy === "desc") processedEntries.sort((a,b) => a.date < b.date ? 1 : -1);
+    else if (sortBy === "category") processedEntries.sort((a,b) => a.category.localeCompare(b.category));
     
-    // Criar tabela
     const table = document.createElement("table");
     table.style.width = "100%";
     table.style.borderCollapse = "collapse";
     
-    const headers = ["🗓️ Data                    ", "📝 Conteúdo"];
     const thead = document.createElement("thead");
     const trHead = document.createElement("tr");
-    
-    headers.forEach(h => {
+    ["🗓️", "📝"].forEach(h => {
         const th = document.createElement("th");
         th.textContent = h;
         th.style.textAlign = "left";
@@ -233,10 +218,7 @@ function renderTable(entries, groupBy = "none", sortBy = CONFIG.sortOrder) {
     const tbody = document.createElement("tbody");
     
     if (groupBy === "none" || groupBy.startsWith("cat-")) {
-        // Modo sem agrupamento ou categoria específica
         let filteredEntries = processedEntries;
-        
-        // Filtrar por categoria específica se selecionado
         if (groupBy.startsWith("cat-")) {
             const selectedCategory = groupBy.replace("cat-", "");
             filteredEntries = processedEntries.filter(entry => entry.category === selectedCategory);
@@ -244,15 +226,12 @@ function renderTable(entries, groupBy = "none", sortBy = CONFIG.sortOrder) {
         
         filteredEntries.forEach(entry => {
             const tr = document.createElement("tr");
-            
-            // Coluna Data
             const tdDate = document.createElement("td");
             tdDate.style.padding = "6px 12px";
             tdDate.style.borderBottom = "1px solid var(--background-modifier-border)";
             tdDate.appendChild(dv.el("span", entry.date));
             tr.appendChild(tdDate);
             
-            // Coluna Conteúdo
             const tdContent = document.createElement("td");
             tdContent.style.padding = "6px 12px";
             tdContent.style.borderBottom = "1px solid var(--background-modifier-border)";
@@ -263,25 +242,18 @@ function renderTable(entries, groupBy = "none", sortBy = CONFIG.sortOrder) {
         });
         
     } else if (groupBy === "category") {
-        // Modo agrupado por categoria
         const grouped = {};
-        
         processedEntries.forEach(entry => {
-            if (!grouped[entry.category]) {
-                grouped[entry.category] = [];
-            }
+            if (!grouped[entry.category]) grouped[entry.category] = [];
             grouped[entry.category].push(entry);
         });
         
-        // Ordenar categorias
         const sortedCategories = Object.keys(grouped).sort();
         
         sortedCategories.forEach(category => {
             const categoryEntries = grouped[category];
             const categoryInfo = categories.find(cat => cat.name === category) || { icon: "📄", name: category };
-            const categoryCount = categoryEntries.length;
             
-            // Linha de cabeçalho da categoria
             const trHeader = document.createElement("tr");
             const tdHeader = document.createElement("td");
             tdHeader.colSpan = 2;
@@ -289,14 +261,12 @@ function renderTable(entries, groupBy = "none", sortBy = CONFIG.sortOrder) {
             tdHeader.style.backgroundColor = "var(--background-secondary)";
             tdHeader.style.fontWeight = "bold";
             tdHeader.style.borderBottom = "2px solid var(--background-modifier-border)";
-            tdHeader.textContent = `${categoryInfo.icon} ${category} (${categoryCount} entradas)`;
+            tdHeader.textContent = `${categoryInfo.icon} ${category} (${categoryEntries.length} entradas)`;
             trHeader.appendChild(tdHeader);
             tbody.appendChild(trHeader);
             
-            // Entradas da categoria
             categoryEntries.forEach(entry => {
                 const tr = document.createElement("tr");
-                
                 const tdDate = document.createElement("td");
                 tdDate.style.padding = "6px 12px";
                 tdDate.style.borderBottom = "1px solid var(--background-modifier-border)";
@@ -306,7 +276,7 @@ function renderTable(entries, groupBy = "none", sortBy = CONFIG.sortOrder) {
                 const tdContent = document.createElement("td");
                 tdContent.style.padding = "6px 12px";
                 tdContent.style.borderBottom = "1px solid var(--background-modifier-border)";
-                tdContent.innerHTML = entry.rawContent;
+                tdContent.innerHTML = `<strong>${entry.icon}</strong> ${entry.rawContent}`;
                 tr.appendChild(tdContent);
                 
                 tbody.appendChild(tr);
@@ -321,13 +291,8 @@ function renderTable(entries, groupBy = "none", sortBy = CONFIG.sortOrder) {
 //-----------------------------------------------------
 // 🚀 EXECUÇÃO INICIAL
 //-----------------------------------------------------
-// Adicionar card de estatísticas
 dv.container.appendChild(renderStatsCard());
-
-// Adicionar controles
 dv.container.appendChild(controls);
-
-// Renderizar tabela inicial
 renderTable(allEntries);
 
 //-----------------------------------------------------
@@ -340,4 +305,5 @@ groupSelect.addEventListener("change", (e) => {
 sortSelect.addEventListener("change", (e) => {
     renderTable(allEntries, groupSelect.value, e.target.value);
 });
-```
+
+~~~

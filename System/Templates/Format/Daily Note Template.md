@@ -13,9 +13,11 @@ week: '[[<% tp.date.now("YYYY [Week] WW") %>]]'
 
  🔹 `INPUT[inlineSelect(option('🙂 – Neutral'), option('😄 – Happy'), option('😐 – Meh'), option('😞 – Sad'), option('😠 – Frustrated'), showcase):daily-mood]`
 
-# Work Log 📝
+# Work Log
+
 
 
 <%tp.file.cursor()%>
+
 
 # Logs 

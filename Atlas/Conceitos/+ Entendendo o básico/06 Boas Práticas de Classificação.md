@@ -191,4 +191,4 @@ bookRating: 5
 
 ---
 
- Seguir para ➡️ [[07 Sugestões de Padrões de Classificações]]
+ Seguir para ➡️ [[07 Sugestões de Classificações]]
