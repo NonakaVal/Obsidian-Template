@@ -45,4 +45,7 @@ X
 	└── Snippet — pequenos blocos reutilizáveis  
 	
 ```
-# obsidian-intro-template
+
+
+
+![[Acessar Pro]]

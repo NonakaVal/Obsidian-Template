@@ -1,36 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
     },
     {
       "basename": "🏠",
       "path": "🏠.md"
     },
     {
-      "basename": "@-templates",
-      "path": "X/Assets/Dataview/@-templates.md"
+      "basename": "@_created",
+      "path": "X/Assets/Dataview/@_created.md"
     },
     {
-      "basename": "3 headspaces ACE",
-      "path": "Atlas/3 headspaces ACE.md"
+      "basename": "showcase",
+      "path": "X/showcase.md"
     },
     {
-      "basename": "02 Markdown",
-      "path": "Atlas/+ Entendendo o básico Obsidian/02 Markdown.md"
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Acessar Pro",
+      "path": "X/Acessar Pro.md"
+    },
+    {
+      "basename": "2026-01-21",
+      "path": "Calendar & Review/Daily Notes/2026-01-21.md"
+    },
+    {
+      "basename": "@ adicionar-imagem-centralizada",
+      "path": "X/Templates/Snippet/@ adicionar-imagem-centralizada.md"
     },
     {
       "basename": "+ Gestão de Conhecimento",
       "path": "Atlas/+ Entendendo o básico Obsidian/+ Gestão de Conhecimento.md"
     },
     {
-      "basename": "08 ACE Pack",
-      "path": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md"
+      "basename": "05 Entendendo Coleções",
+      "path": "Atlas/+ Entendendo o básico Obsidian/05 Entendendo Coleções.md"
     },
     {
-      "basename": "09 ARC Framework",
-      "path": "Atlas/+ Entendendo o básico Obsidian/09 ARC Framework.md"
+      "basename": "08 ACE Pack",
+      "path": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md"
     },
     {
       "basename": "04 Entendendo Mocs",
@@ -41,24 +53,36 @@
       "path": "Atlas/+ Entendendo o básico Obsidian/03 Propriedades.md"
     },
     {
-      "basename": "01 Primeira Nota",
-      "path": "Atlas/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+      "basename": "02 Markdown",
+      "path": "Atlas/+ Entendendo o básico Obsidian/02 Markdown.md"
     },
     {
       "basename": "_atalhos",
       "path": "X/Assets/_atalhos.md"
     },
     {
-      "basename": "2026-01-21",
-      "path": "Calendar & Review/Daily Notes/2026-01-21.md"
-    },
-    {
-      "basename": "como + funciona",
-      "path": "+/como + funciona.md"
+      "basename": "nota 1",
+      "path": "+/nota 1.md"
     },
     {
       "basename": "A-Daily Note Template",
       "path": "X/Templates/Format/A-Daily Note Template.md"
+    },
+    {
+      "basename": "@-templates",
+      "path": "X/Assets/Dataview/@-templates.md"
+    },
+    {
+      "basename": "3 headspaces ACE",
+      "path": "Atlas/3 headspaces ACE.md"
+    },
+    {
+      "basename": "09 ARC Framework",
+      "path": "Atlas/+ Entendendo o básico Obsidian/09 ARC Framework.md"
+    },
+    {
+      "basename": "como + funciona",
+      "path": "+/como + funciona.md"
     },
     {
       "basename": "10 dashboard++",
@@ -115,10 +139,6 @@
     {
       "basename": "@_modified",
       "path": "X/Assets/Dataview/@_modified.md"
-    },
-    {
-      "basename": "@_created",
-      "path": "X/Assets/Dataview/@_created.md"
     },
     {
       "basename": "2025-10",
