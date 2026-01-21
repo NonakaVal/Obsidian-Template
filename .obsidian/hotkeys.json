@@ -43,15 +43,6 @@
       "key": "N"
     }
   ],
-  "templater-obsidian:create-new-note-from-template": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
   "app:delete-file": [
     {
       "modifiers": [
@@ -263,14 +254,6 @@
       "key": "3"
     }
   ],
-  "daily-notes:goto-next": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "/"
-    }
-  ],
   "obsidian-hotkeys-for-specific-files:SYSTEM/ASSETS/Dataview/DATAVIEW-QUERY-JS.md-new-tab": [
     {
       "modifiers": [
@@ -347,15 +330,6 @@
         "Shift"
       ],
       "key": "S"
-    }
-  ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
     }
   ],
   "file-explorer:new-file-in-new-pane": [],
@@ -465,22 +439,6 @@
       "key": "K"
     }
   ],
-  "obsidian-hotkeys-for-specific-files:🏠.md": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "H"
-    }
-  ],
-  "persistent-graph:save-node-positions": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "G"
-    }
-  ],
   "persistent-graph:restore-node-positions": [
     {
       "modifiers": [
@@ -519,22 +477,6 @@
         "Mod"
       ],
       "key": "M"
-    }
-  ],
-  "periodic-notes:next-daily-note": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Key193"
-    }
-  ],
-  "periodic-notes:prev-daily-note": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Key226"
     }
   ],
   "obsidian-hotkeys-for-specific-files:60 System/63 Scripts/Zettell.py-new-tab": [
@@ -599,23 +541,6 @@
       "key": "W"
     }
   ],
-  "quickadd:choice:e7c0cfff-583f-4da9-a201-79b4d5a12de4": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "N"
-    }
-  ],
-  "quickadd:choice:6430f0b6-4d07-44f9-9b1a-45e79f6bee19": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "A"
-    }
-  ],
   "periodic-notes:open-monthly-note": [
     {
       "modifiers": [
@@ -638,14 +563,6 @@
       "modifiers": [
         "Mod",
         "Shift"
-      ],
-      "key": "T"
-    }
-  ],
-  "tasknotes:create-new-task": [
-    {
-      "modifiers": [
-        "Alt"
       ],
       "key": "T"
     }
@@ -684,6 +601,14 @@
       "key": "P"
     }
   ],
+  "tasknotes:open-pomodoro-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
   "gridexplorer:open-grid-view": [
     {
       "modifiers": [
@@ -701,6 +626,56 @@
       "key": "1"
     }
   ],
+  "obsidian-checklist-plugin:show-checklist-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "tasknotes:create-new-task": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "periodic-notes:prev-daily-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "\\"
+    }
+  ],
+  "periodic-notes:next-daily-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "/"
+    }
+  ],
+  "obsidian-task-progress-bar:open-task-genius-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-task-progress-bar:quick-capture": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
   "periodic-notes:open-weekly-note": [
     {
       "modifiers": [
@@ -710,12 +685,98 @@
       "key": "W"
     }
   ],
-  "tasknotes:open-pomodoro-view": [
+  "audio-recorder:start": [
     {
       "modifiers": [
         "Alt"
       ],
-      "key": "Y"
+      "key": "R"
+    }
+  ],
+  "audio-recorder:stop": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "quickadd:choice:61fae8a4-7682-4c0b-b76d-2fe4973abead": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "quickadd:choice:af918711-f369-4c1a-a442-766c0664e710": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "quickadd:choice:47106046-31c4-44c7-9d17-6044352d6654": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:🏠.md-new-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "tasknotes:open-kanban-view": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "obsidian-shellcommands:re-execute-from-command-palette": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "obsidian-shellcommands:shell-command-awwutwnnpx": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "`"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:X/Scripts/organizacao_obsidian/Similar-Search.py-new-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "2"
+    }
+  ],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
     }
   ]
 }

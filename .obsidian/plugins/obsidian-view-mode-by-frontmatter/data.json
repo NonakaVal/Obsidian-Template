@@ -4,19 +4,15 @@
   "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "Calendar & Review/Monthly Notes",
-      "viewMode": "obsidianUIMode: preview"
+      "folder": "X/Templates",
+      "viewMode": "obsidianEditingMode: source"
     },
     {
       "folder": "Calendar & Review/Weekly Notes",
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "Atlas/Mapas e Modelos",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "folder": "System/Assets",
+      "folder": "X/Assets/Dataview",
       "viewMode": "obsidianUIMode: preview"
     },
     {
@@ -27,10 +23,6 @@
   "files": [
     {
       "filePattern": "🏠",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "Comece Aqui 🎉",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

@@ -1,22 +1,100 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "hideUnresolved": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.2976557136549832,
+  "colorGroups": [
+    {
+      "query": "tag:#calendar/daily  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "[\"subject\":hub-social]",
+      "color": {
+        "a": 1,
+        "rgb": 15002836
+      }
+    },
+    {
+      "query": "[\"subject\":hub-pkm]",
+      "color": {
+        "a": 1,
+        "rgb": 15984805
+      }
+    },
+    {
+      "query": "[\"subject\":hub-menagement]",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "[\"subject\":hub-statistic]",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "[\"subject\":hub-aoc]",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "[\"subject\":hub-data-w]",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "[\"subject\":hub-work]",
+      "color": {
+        "a": 1,
+        "rgb": 15961296
+      }
+    },
+    {
+      "query": "[\"subject\":hub-mkt]",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "[\"subject\":hub-python]",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "[\"subject\":data-v]",
+      "color": {
+        "a": 1,
+        "rgb": 6615080
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 1.36328125,
+  "lineSizeMultiplier": 0.393489583333333,
+  "collapse-forces": false,
+  "centerStrength": 0.618082682291667,
+  "repelStrength": 17.041015625,
+  "linkStrength": 0.870930989583333,
+  "linkDistance": 179,
+  "scale": 0.6757621765136719,
   "close": true
 }

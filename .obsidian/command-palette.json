@@ -1,7 +1,12 @@
 {
   "pinned": [
-    "obsidian-shellcommands:shell-command-jizuaj31bd",
-    "obsidian-shellcommands:shell-command-0foabwsmg2",
-    "obsidian-shellcommands:shell-command-u4oanr0vqd"
+    "obsidian-shellcommands:shell-command-8h4kfwmc31",
+    "obsidian-shellcommands:shell-command-awwutwnnpx",
+    "obsidian-shellcommands:shell-command-gmvyiklnz6",
+    "obsidian-shellcommands:shell-command-bshggnnseg",
+    "obsidian42-brat:disablePlugin",
+    "obsidian42-brat:enablePlugin",
+    "graph:open",
+    "workspace:copy-path"
   ]
 }

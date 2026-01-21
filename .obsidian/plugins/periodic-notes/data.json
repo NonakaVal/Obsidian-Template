@@ -1,21 +1,22 @@
 {
-  "showGettingStartedBanner": false,
+  "showGettingStartedBanner": true,
   "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
+    "format": "",
     "folder": "Calendar & Review/Daily Notes",
-    "template": "System/Templates/Format/Daily Note Template.md",
+    "template": "X/Templates/Format/A-Daily Note Template",
     "enabled": true
   },
   "weekly": {
-    "format": "",
-    "template": "System/Templates/Format/Weekly Note Template.md",
+    "format": "YYYY [Week] WW",
+    "template": "X/Templates/Format/A-Weekly Note Template.md",
     "folder": "Calendar & Review/Weekly Notes",
     "enabled": true
   },
   "monthly": {
     "format": "",
-    "template": "System/Templates/Format/Monthly-note-template.md",
+    "template": "X/Templates/Format/A-Monthly-note-template.md",
     "folder": "Calendar & Review/Monthly Notes",
     "enabled": true
   },
@@ -27,7 +28,6 @@
   "yearly": {
     "format": "",
     "template": "",
-    "folder": "CALENDAR/YEARLY",
-    "enabled": false
+    "folder": ""
   }
 }

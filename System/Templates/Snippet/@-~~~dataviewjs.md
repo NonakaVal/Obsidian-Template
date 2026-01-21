@@ -1,3 +1,0 @@
-~~~dataviewjs
-<%tp.file.cursor()%>
-~~~

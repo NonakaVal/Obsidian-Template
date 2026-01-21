@@ -1,0 +1,3 @@
+
+
+![img<%tp.file.cursor()%>](<% tp.system.prompt("link .png .jpg etc..")%>)

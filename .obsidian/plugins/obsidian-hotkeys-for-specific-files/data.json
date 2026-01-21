@@ -2,23 +2,11 @@
   "files": [
     {
       "useMoment": false,
-      "file": "System/Assets/Dataview/@-templates.md"
+      "file": "X/Assets/_atalhos.md"
     },
     {
       "useMoment": false,
       "file": "🏠.md"
-    },
-    {
-      "useMoment": false,
-      "file": "System/Assets/Dataview/@_projects.md"
-    },
-    {
-      "useMoment": false,
-      "file": "System/Assets/Dataview/@_areas.md"
-    },
-    {
-      "useMoment": false,
-      "file": "System/Assets/Dataview/@_collections.md"
     }
   ],
   "useExistingPane": true,

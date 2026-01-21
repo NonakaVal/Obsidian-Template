@@ -37,29 +37,43 @@
     },
     {
       "type": "file",
-      "ctime": 1761097041207,
-      "path": "gestão do conhecimento 2.md"
-    },
-    {
-      "type": "folder",
-      "ctime": 1761096600633,
-      "path": "Atlas/Conceitos/+ Entendendo o básico",
-      "title": "Entendendo o Básico"
-    },
-    {
-      "type": "folder",
-      "ctime": 1761096608403,
-      "path": "Atlas/Conceitos/ACE & ARC Frameworks"
-    },
-    {
-      "type": "folder",
-      "ctime": 1761096611995,
-      "path": "Atlas/Conceitos/Arquiteto & Jardineiro"
+      "ctime": 1761774277933,
+      "path": "System/Assets/61.1 Dataview/@ Garden & Archtect Review.md"
     },
     {
       "type": "file",
-      "ctime": 1761097048069,
+      "ctime": 1759915707489,
+      "path": "System/Assets/61.1 Dataview/@_Architect.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1759915730423,
+      "path": "System/Assets/61.1 Dataview/@_Garden.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1763365196996,
       "path": "🏠.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1763522288331,
+      "path": "Projects & Areas/💡 Ideas.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1768997406812,
+      "path": "Atlas/+ Entendendo o básico Obsidian/+ Gestão de Conhecimento.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1768997416077,
+      "path": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1768997420067,
+      "path": "Atlas/+ Entendendo o básico Obsidian/09 ARC Framework.md"
     }
   ]
 }

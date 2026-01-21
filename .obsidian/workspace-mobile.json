@@ -101,8 +101,8 @@
                   "futureSources": []
                 }
               },
-              "icon": "folder",
-              "title": "50 Projects & Outputs/51 Ongoing/Daily Journal Vault Kit"
+              "icon": "lucide-ghost",
+              "title": "grid-view"
             }
           },
           {
@@ -125,8 +125,8 @@
             "state": {
               "type": "tasknotes-notes-view",
               "state": {},
-              "icon": "file-text",
-              "title": "Notes"
+              "icon": "lucide-ghost",
+              "title": "tasknotes-notes-view"
             }
           },
           {
@@ -135,16 +135,60 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40 Calendar & Review/41 Daily Notes/2025-10-14.md",
+                "file": "Projects & Areas/Projects/Ongoing/Vaults Preset Sale/Vaults Preset Sale.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "2025-10-14"
+              "title": "Vaults Preset Sale"
+            }
+          },
+          {
+            "id": "16e8d217ae9c2181",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-task-list-view",
+              "state": {},
+              "icon": "check-square",
+              "title": "Tasks"
+            }
+          },
+          {
+            "id": "e6d7f8073ce7c856",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects & Areas/Projects/Ongoing/Vaults Preset Sale/Vaults Preset Sale.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Vaults Preset Sale"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -283,8 +327,8 @@
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "calendar-with-checkmark",
-          "title": "Calendar"
+          "icon": "lucide-ghost",
+          "title": "calendar"
         }
       },
       {
@@ -303,8 +347,28 @@
         "state": {
           "type": "todo",
           "state": {},
+          "icon": "lucide-ghost",
+          "title": "todo"
+        }
+      },
+      {
+        "id": "f52513bd4d538467",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {},
           "icon": "checkmark",
           "title": "Todo List"
+        }
+      },
+      {
+        "id": "118856b96f485961",
+        "type": "leaf",
+        "state": {
+          "type": "chronology-calendar-view",
+          "state": {},
+          "icon": "clock",
+          "title": "Chronology"
         }
       }
     ],
@@ -312,41 +376,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "callout-manager:Insert Callout": false,
-      "dashboard-navigator:Open dashboard navigator": false,
-      "obsidian-git:Open Git source control": true,
-      "tasknotes:Open pomodoro": false,
-      "gridexplorer:Open grid view": false,
-      "tasknotes:Open task list": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
-      "templater-obsidian:Templater": false,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "bases:Create new base": true,
-      "obsidian-kanban:Create new board": true,
-      "chronology:Open Chronology": false,
-      "tasknotes:Open mini calendar": true,
+      "callout-manager:Insert Callout": false,
+      "obsidian-kanban:Create new board": false,
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "gridexplorer:Open grid view": false,
+      "tasknotes:Open mini calendar": false,
       "tasknotes:Open advanced calendar": false,
+      "tasknotes:Open task list": false,
       "tasknotes:Open notes": false,
-      "tasknotes:Open agenda": true,
-      "tasknotes:Open kanban board": true,
+      "tasknotes:Open agenda": false,
+      "tasknotes:Open kanban board": false,
+      "tasknotes:Open pomodoro": false,
       "tasknotes:Open pomodoro stats": false,
-      "tasknotes:Create new task": true,
+      "tasknotes:Create new task": false,
+      "dashboard-navigator:Open dashboard navigator": false,
       "widgets:Add widget": false,
-      "periodic-notes:Open today": false
+      "chronology:Open Chronology": false,
+      "vscode-editor:Create Code File": false,
+      "bookshelf:Open Bookshelf library": false,
+      "bookshelf:Open Bookshelf statistics": false,
+      "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "be681d3c56f7c211",
+  "active": "faf14c9194398972",
   "lastOpenFiles": [
+    "🏠.md",
+    "README.md",
     "60 System/61 Assets/61.1 Dataview/@_by_count_links.md",
     "40 Calendar & Review/41 Daily Notes/2025-10-14.md",
     "30 Knowlegde/33 Concept/2025-09-24-Thoughts-Concepts-Archived/concept-statistic-fundamentos.md",
-    "🏠.md",
     "30 Knowlegde/34 Maps &  Index/34.1 Index/index-datascience.md",
     "50 Projects & Outputs/51 Ongoing/Daily Journal Vault Kit/2025-10-13-Daily Journal Vault Kit.md",
     "60 System/61 Assets/61.1 Dataview/@_modified.md",

@@ -5,13 +5,7 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [
-      "LiCalendar",
-      "LiLayoutTemplate",
-      "LiTemplaterIcon",
-      "LiFolderDot",
-      "LiFolders"
-    ],
+    "recentlyUsedIcons": [],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -20,7 +14,7 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true,
+    "iconInTabsEnabled": false,
     "iconInTitleEnabled": false,
     "iconInTitlePosition": "above",
     "iconInFrontmatterEnabled": false,
@@ -33,24 +27,5 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  },
-  "Atlas": "LiLibraryBig",
-  "Calendar & Review": "LiCalendar",
-  "Projects & Areas": "LiFolderGit2",
-  "Atlas/Conceitos": "LiNotebookPen",
-  "Atlas/Conceitos/ACE & ARC Frameworks": "LiFolderTree",
-  "Atlas/Conceitos/Arquiteto & Jardineiro": "LiLeaf",
-  "Atlas/Maps": "LiFolderPlus",
-  "Calendar & Review/Daily Notes": "LiCalendarCheck",
-  "Calendar & Review/Monthly Notes": "LiCalendarFold",
-  "Calendar & Review/TaskNotes": "LiCheckSquare",
-  "Calendar & Review/Weekly Notes": "LiCalendar",
-  "Projects & Areas/Areas": "LiFolderSync",
-  "Projects & Areas/Projects": "LiFolderCheck",
-  "System": "LiSettings",
-  "System/Assets": "LiSwatchBook",
-  "System/Collections": "LiFolders",
-  "System/Media": "LiFolderDot",
-  "System/Templates": "LiLayoutTemplate",
-  "Atlas/Conceitos/+ Entendendo o básico": "LiNotepadText"
+  }
 }

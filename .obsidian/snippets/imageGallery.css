@@ -4,33 +4,28 @@ source: https://discord.com/channels/686053708261228577/744933215063638183/10988
 */
 
 /* Adjustable Hight, Manual Width Aadjustment*/
-
 body .imagegallery {
-  --file-line-width: 1100px;
-}
-
-
-.imagegallery .cm-editor img {
-  max-width: 300px;
+--file-line-width: 1120px;
 }
 
 .imagegallery p {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 .imagegallery p span {
-  margin: 5px;
-  border: 0px solid #ccc;
-  height: 250px;
+    margin: 6px;
+    margin-bottom: -2px;
+    border: 0px solid #ccc;
+    height: auto;
 }
 
 .imagegallery p img {
-  height: 250px;
+  max-height: 175px;
+  padding: 0px;
   object-fit: cover;
-  transition: .0s;
 }
 
 .imagegallery p img:hover {
@@ -41,7 +36,7 @@ body .imagegallery {
 
 .imagegallery p span:hover img:not(:active) {
   transition: transform .1s;
-  transition-property: ;
+  transition-property: 0;
   transform: scale(1.13);
   z-index: 1000;
   transition-property: initial;
@@ -84,36 +79,39 @@ body .imagegallery {
   bottom: 0;
   background: var(--background-primary);
 }
+
+
+
+
+
+/* IMAGEGALLERY NO MODO EDIÇÃO – VARIAÇÃO BÁSICA */
+
+.markdown-source-view.mod-cm6 .cm-content img {
+    max-height: 175px;
+    object-fit: cover;
+    transition: transform .1s;
+    cursor: pointer;
 }
 
+.markdown-source-view.mod-cm6 .cm-content img:hover {
+    transform: scale(1.13);
+    z-index: 1000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
 
-/*
-    body .imagegallery {
-    --file-line-width: 1120px;
-  }
-
-    .imagegallery p {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-content: flex-start;
-    }
-
-    .imagegallery p span {
-        margin: 6px;
-        margin-bottom: -2px;
-        border: 0px solid #ccc;
-        height: auto;
-    }
-
-    .imagegallery p img {
-      max-height: 175px;
-      padding: 0px;
-      object-fit: cover;
-    }
-
-
-    .imagegallery p span:hover {
-
-    }
-*/
+/* Expansão ao clicar */
+.markdown-source-view.mod-cm6 .cm-content img:active {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  z-index: 9999;
+  background: var(--background-primary);
+  padding: 0;
+}

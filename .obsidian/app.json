@@ -3,6 +3,17 @@
   "showInlineTitle": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "+",
-  "attachmentFolderPath": "System/Media",
-  "promptDelete": false
+  "attachmentFolderPath": "X/Media/Images",
+  "readableLineLength": true,
+  "foldHeading": true,
+  "rightToLeft": false,
+  "focusNewTab": true,
+  "foldIndent": true,
+  "autoConvertHtml": true,
+  "userIgnoreFilters": [
+    "X/",
+    "Calendar & Review/"
+  ],
+  "showLineNumber": true,
+  "trashOption": "local"
 }

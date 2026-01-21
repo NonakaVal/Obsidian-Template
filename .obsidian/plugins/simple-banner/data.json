@@ -1,9 +1,9 @@
 {
   "desktop": {
     "bannerEnabled": true,
-    "height": 240,
+    "height": 290,
     "viewOffset": 0,
-    "noteOffset": -32,
+    "noteOffset": 70,
     "bannerRadius": [
       8,
       8,
@@ -25,14 +25,14 @@
       0,
       -24
     ],
-    "datetimeEnabled": true,
+    "datetimeEnabled": false,
     "datetimeOnPropOnly": false,
     "datetimeAlignment": [
       "center",
       "center"
     ],
     "datetimeOffset": [
-      -30,
+      0,
       0
     ],
     "datetimeTimeFormat": "HH:mm",
