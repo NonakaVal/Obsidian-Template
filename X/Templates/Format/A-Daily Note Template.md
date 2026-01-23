@@ -2,7 +2,7 @@
 created: <% tp.date.now("YYYY-MM-DD @ HH:mm") %>
 tags:
   - calendar/daily
-week: '[[<% tp.date.now("YYYY [Week] WW") %>]]'
+week: '[[<% tp.date.now("gggg-[W]ww") %>]]'
 ---
 
 <% tp.date.now("YYYY-MM-DD") %>’s Note
@@ -18,7 +18,11 @@ week: '[[<% tp.date.now("YYYY [Week] WW") %>]]'
 
 # Gratidão
 
-## _Comece o dia escrevendo pelo que você é grato(a) para cultivar um senso de contentamento e apreciação_
+ _Comece o dia escrevendo pelo que você é grato(a) para cultivar um senso de contentamento e apreciação_
+
+
+
+
 
 
 

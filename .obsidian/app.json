@@ -10,10 +10,7 @@
   "focusNewTab": true,
   "foldIndent": true,
   "autoConvertHtml": true,
-  "userIgnoreFilters": [
-    "X/",
-    "Calendar & Review/"
-  ],
+  "userIgnoreFilters": null,
   "showLineNumber": true,
   "trashOption": "local"
 }

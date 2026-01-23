@@ -1,5 +1,5 @@
 ---
-up: "[[+ Gestão de Conhecimento]]"
+collection: "[[+ Gestão de Conhecimento]]"
 ---
 # O Que é um MOC?
 
@@ -411,4 +411,4 @@ Servem como ponto central de navegação diária.
 
 ---
 
-Seguir para ➡️ [[05 Entendendo Coleções]]
+Seguir para ➡️ [[04 Entendendo Coleções]]

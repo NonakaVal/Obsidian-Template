@@ -9,7 +9,7 @@
     "enabled": true
   },
   "weekly": {
-    "format": "YYYY [Week] WW",
+    "format": "",
     "template": "X/Templates/Format/A-Weekly Note Template.md",
     "folder": "Calendar & Review/Weekly Notes",
     "enabled": true

@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.ext != "base"
+views:
+  - type: cards
+    name: Main View
+    filters:
+      and:
+        - file.inFolder("Atlas/Index & Bases")
+    image: note.banner
+    imageAspectRatio: 0.8
+    cardSize: 120

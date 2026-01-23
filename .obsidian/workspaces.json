@@ -1,307 +1,6 @@
 {
   "workspaces": {
-    "Criar primeira nota": {
-      "main": {
-        "id": "2178b4b13ad8d220",
-        "type": "split",
-        "children": [
-          {
-            "id": "8beddab57634af6f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "aabad12ac07f1863",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1.5,
-                      "close": true
-                    }
-                  },
-                  "icon": "lucide-git-fork",
-                  "title": "Graph of 01 Primeira Nota"
-                }
-              }
-            ]
-          },
-          {
-            "id": "3ac19512898ebf40",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "62f22b33ace2f717",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "01 Primeira Nota"
-                }
-              },
-              {
-                "id": "002594c9df6905f7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "X/Assets/_atalhos.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "_atalhos"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "da223467db4c9158",
-        "type": "split",
-        "children": [
-          {
-            "id": "3ba83bbb7904c6a3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b34c0f902b1265c0",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "c3dcb494a0674c29",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#info",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "e0f7509dece0369f",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 309.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "3703f7d8eaeb01fd",
-        "type": "split",
-        "children": [
-          {
-            "id": "c4e9b6b7a7b97459",
-            "type": "tabs",
-            "dimension": 43.47014925373134,
-            "children": [
-              {
-                "id": "f7119f2528338e15",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of como + funciona"
-                }
-              },
-              {
-                "id": "2386ef8588c3dc8e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "1ebc49deb54dd0f7",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "Todas as propriedades"
-                }
-              },
-              {
-                "id": "40be355d2ebab86f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "X/Templates/Format/A-Daily Note Template.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for como + funciona"
-                }
-              },
-              {
-                "id": "5d297ae10b81be7a",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ],
-            "currentTab": 4
-          },
-          {
-            "id": "3954ea8e597c4a31",
-            "type": "tabs",
-            "dimension": 56.529850746268664,
-            "children": [
-              {
-                "id": "c133cbfbc6b00289",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/09 ARC Framework.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for A-Daily Note Template"
-                }
-              },
-              {
-                "id": "7a2141420f060740",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from como + funciona"
-                }
-              },
-              {
-                "id": "d832fe089cbd3a82",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "X/Assets/_atalhos.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "_atalhos"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 381.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "periodic-notes:Open today": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "bases:Create new base": false,
-          "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false
-        }
-      },
-      "active": "62f22b33ace2f717",
-      "mtime": "2026-01-21T11:41:19-03:00"
-    },
-    "Entendendo básico - 01 markdown": {
+    "01 - Entendendo básico - 02 markdown > 04 Propriedades > 03 Coleções ": {
       "main": {
         "id": "2178b4b13ad8d220",
         "type": "split",
@@ -309,51 +8,57 @@
           {
             "id": "8a0a38f57f5b73aa",
             "type": "tabs",
-            "dimension": 47.47416762342136,
+            "dimension": 47.474167623421366,
             "children": [
               {
-                "id": "d038f20765040260",
+                "id": "244554ef7cbeee04",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/02 Markdown.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "02 Markdown"
                 }
               },
               {
-                "id": "9818e0b1e3ff3b62",
+                "id": "17dcde48dad5f39f",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/03 Propriedades.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "03 Propriedades"
                 }
               },
               {
-                "id": "8906e26b19147a60",
+                "id": "5305e2d3666b194a",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/04 Entendendo Mocs.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
-                  "title": "04 Entendendo Mocs"
+                  "title": "04 Entendendo Coleções"
                 }
               }
             ],
@@ -362,7 +67,7 @@
           {
             "id": "a8f2be3c3934e0bf",
             "type": "tabs",
-            "dimension": 52.52583237657864,
+            "dimension": 52.525832376578634,
             "children": [
               {
                 "id": "828900191236ca4d",
@@ -370,9 +75,9 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/02 Markdown.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md",
                     "options": {
-                      "collapse-filter": true,
+                      "collapse-filter": false,
                       "search": "",
                       "localJumps": 1,
                       "localBacklinks": true,
@@ -380,7 +85,7 @@
                       "localInterlinks": false,
                       "showTags": false,
                       "showAttachments": false,
-                      "hideUnresolved": false,
+                      "hideUnresolved": true,
                       "collapse-color-groups": true,
                       "colorGroups": [],
                       "collapse-display": true,
@@ -394,11 +99,11 @@
                       "linkStrength": 1,
                       "linkDistance": 250,
                       "scale": 1,
-                      "close": false
+                      "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of 02 Markdown"
+                  "title": "Gráfico de 02 Markdown"
                 }
               }
             ]
@@ -424,7 +129,7 @@
                     "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "Explorador de arquivos"
                 }
               },
               {
@@ -501,7 +206,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/02 Markdown.md",
+                    "file": "Atlas/+ Entendendo o básico Obsidian/03 Entendendo Coleções.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
@@ -580,25 +285,25 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
           "periodic-notes:Open today": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "bases:Create new base": false,
           "callout-manager:Insert Callout": false,
           "templater-obsidian:Templater": false
         }
       },
-      "active": "d038f20765040260",
-      "mtime": "2026-01-21T12:17:19-03:00"
+      "active": "244554ef7cbeee04",
+      "mtime": "2026-01-23T11:24:36-03:00"
     },
-    "Introdução ao ACE Method": {
+    "02 - Introdução ao ACE Method": {
       "main": {
         "id": "2178b4b13ad8d220",
         "type": "split",
@@ -613,7 +318,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false
@@ -634,7 +339,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -662,7 +367,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of 08 ACE Pack"
+                  "title": "Gráfico de 08 ACE Pack"
                 }
               }
             ]
@@ -688,7 +393,7 @@
                     "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "Explorador de arquivos"
                 }
               },
               {
@@ -844,25 +549,25 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
           "periodic-notes:Open today": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "bases:Create new base": false,
           "callout-manager:Insert Callout": false,
           "templater-obsidian:Templater": false
         }
       },
-      "active": "f291f4aba4ff75bc",
-      "mtime": "2026-01-21T12:42:31-03:00"
+      "active": "d038f20765040260",
+      "mtime": "2026-01-23T11:25:49-03:00"
     },
-    "ARC Framework": {
+    "03 - ARC Framework": {
       "main": {
         "id": "2178b4b13ad8d220",
         "type": "split",
@@ -872,12 +577,12 @@
             "type": "tabs",
             "children": [
               {
-                "id": "4b6b0f9ee2c5fdd6",
+                "id": "d62913589b32eb93",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false
@@ -885,26 +590,65 @@
                   "icon": "lucide-file",
                   "title": "08 ACE Pack"
                 }
-              }
-            ]
-          },
-          {
-            "id": "c8210b9201677f15",
-            "type": "tabs",
-            "children": [
+              },
               {
-                "id": "d038f20765040260",
+                "id": "4b6b0f9ee2c5fdd6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
                   "title": "09 ARC Framework"
+                }
+              }
+            ],
+            "currentTab": 1,
+            "stacked": true
+          },
+          {
+            "id": "3325df5f040cc91d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2a706b8eafa4f187",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de 09 ARC Framework"
                 }
               }
             ]
@@ -930,7 +674,7 @@
                     "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "Explorador de arquivos"
                 }
               },
               {
@@ -964,7 +708,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 309.5
+        "width": 309.5,
+        "collapsed": true
       },
       "right": {
         "id": "3703f7d8eaeb01fd",
@@ -1037,12 +782,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from 08 ACE Pack"
+                  "title": "Links de saída para 09 ARC Framework"
                 }
               },
               {
@@ -1069,7 +814,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1097,7 +842,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of 08 ACE Pack"
+                  "title": "Gráfico de 09 ARC Framework"
                 }
               },
               {
@@ -1138,69 +883,74 @@
           }
         ],
         "direction": "horizontal",
-        "width": 381.5
+        "width": 381.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
           "periodic-notes:Open today": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "bases:Create new base": false,
           "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false,
-          "vscode-editor:Create Code File": false
+          "templater-obsidian:Templater": false
         }
       },
-      "active": "4b6b0f9ee2c5fdd6",
-      "mtime": "2026-01-21T09:32:30-03:00"
+      "active": "2a706b8eafa4f187",
+      "mtime": "2026-01-23T11:26:37-03:00"
     },
-    "+ Gestão de conhecimento Index": {
+    "04 - Homepage & Checklist": {
       "main": {
         "id": "2178b4b13ad8d220",
         "type": "split",
         "children": [
           {
-            "id": "8beddab57634af6f",
+            "id": "bbea4e294b7a7149",
             "type": "tabs",
             "children": [
               {
-                "id": "d038f20765040260",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "pinned": true,
-                  "icon": "lucide-git-fork",
-                  "title": "Graph view"
-                }
-              }
-            ]
-          },
-          {
-            "id": "1df32ff3c23ad5ba",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "22262c9526cbabe9",
+                "id": "0f46afb68d4953d8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/+ Gestão de Conhecimento.md",
+                    "file": "🏠.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "+ Gestão de Conhecimento"
+                  "title": "🏠"
+                }
+              }
+            ]
+          },
+          {
+            "id": "d7ab741051c67587",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "50e970a64c70c495",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Index & Bases/11 Checklist.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "11 Checklist"
                 }
               }
             ]
@@ -1226,7 +976,306 @@
                     "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "50e7c6b7f44ce329",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "dimension": 50.093283582089555,
+            "children": [
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of 08 ACE Pack"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for 08 ACE Pack"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "12d66412a1b67378",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Links inversos para 08 ACE Pack"
+                }
+              },
+              {
+                "id": "c3984c5d8db48496",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Links de saída para 08 ACE Pack"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "3954ea8e597c4a31",
+            "type": "tabs",
+            "dimension": 49.906716417910445,
+            "children": [
+              {
+                "id": "d832fe089cbd3a82",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 381.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "50e970a64c70c495",
+      "mtime": "2026-01-23T11:44:09-03:00"
+    },
+    "05 - PKM index": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "8beddab57634af6f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "22262c9526cbabe9",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Index & Bases/+ Gestão de Conhecimento.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "+ Gestão de Conhecimento"
+                }
+              }
+            ]
+          },
+          {
+            "id": "9be0701383128896",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2bc6dd2084c91080",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Atlas/Index & Bases/+ Gestão de Conhecimento.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "-path:\"Calendar & Review\"  ",
+                      "localJumps": 3,
+                      "localBacklinks": true,
+                      "localForelinks": false,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": false,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": true,
+                      "textFadeMultiplier": -1.2,
+                      "nodeSizeMultiplier": 1.23806966145833,
+                      "lineSizeMultiplier": 1.40475260416667,
+                      "collapse-forces": false,
+                      "centerStrength": 0.531819661458333,
+                      "repelStrength": 9.57682291666667,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de + Gestão de Conhecimento"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
                 }
               },
               {
@@ -1401,25 +1450,25 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
           "periodic-notes:Open today": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "bases:Create new base": false,
           "callout-manager:Insert Callout": false,
           "templater-obsidian:Templater": false
         }
       },
-      "active": "d038f20765040260",
-      "mtime": "2026-01-21T12:18:47-03:00"
+      "active": "2bc6dd2084c91080",
+      "mtime": "2026-01-23T11:44:36-03:00"
     },
-    "@-templates": {
+    "Lista de Templates e Assets": {
       "main": {
         "id": "2178b4b13ad8d220",
         "type": "split",
@@ -1489,7 +1538,7 @@
                     "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "Explorador de arquivos"
                 }
               },
               {
@@ -1506,7 +1555,7 @@
                     "sortOrder": "alphabetical"
                   },
                   "icon": "lucide-search",
-                  "title": "Search"
+                  "title": "Procurar"
                 }
               },
               {
@@ -1516,7 +1565,7 @@
                   "type": "bookmarks",
                   "state": {},
                   "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
+                  "title": "Marcadores"
                 }
               }
             ]
@@ -1586,7 +1635,7 @@
                     "file": "X/Assets/Dataview/@-templates.md"
                   },
                   "icon": "lucide-info",
-                  "title": "File properties for @-templates"
+                  "title": "Propriedades do arquivo @-templates"
                 }
               },
               {
@@ -1622,47 +1671,91 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
           "periodic-notes:Open today": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "bases:Create new base": false,
           "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false,
-          "vscode-editor:Create Code File": false
+          "templater-obsidian:Templater": false
         }
       },
-      "active": "d76d7b63e0afbab3",
-      "mtime": "2026-01-21T09:12:03-03:00"
+      "active": "b34c0f902b1265c0",
+      "mtime": "2026-01-23T11:55:30-03:00"
     },
-    "readme + home": {
+    "start here": {
       "main": {
         "id": "2178b4b13ad8d220",
         "type": "split",
         "children": [
           {
-            "id": "3ac19512898ebf40",
+            "id": "8beddab57634af6f",
             "type": "tabs",
             "children": [
               {
-                "id": "62f22b33ace2f717",
+                "id": "a5b60ee37e352677",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
                     "mode": "preview",
                     "source": false,
                     "backlinks": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "01 Primeira Nota"
+                }
+              }
+            ]
+          },
+          {
+            "id": "3ac19512898ebf40",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aabad12ac07f1863",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de 01 Primeira Nota"
                 }
               },
               {
@@ -1678,43 +1771,6 @@
                   },
                   "icon": "lucide-file",
                   "title": "_atalhos"
-                }
-              },
-              {
-                "id": "61f9a12f1d4a4493",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "🏠.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "🏠"
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "053a96319918e491",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fb6cbf16ae2e3bef",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "README"
                 }
               }
             ]
@@ -1740,7 +1796,7 @@
                     "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "Explorador de arquivos"
                 }
               },
               {
@@ -1836,7 +1892,7 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "X/Templates/Format/A-Daily Note Template.md"
+                    "file": "🏠.md"
                   },
                   "icon": "lucide-info",
                   "title": "File properties for como + funciona"
@@ -1918,24 +1974,24 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "periodic-notes:Open today": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "bases:Create new base": false,
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
           "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false
+          "templater-obsidian:Templater": false,
+          "periodic-notes:Open today": false
         }
       },
-      "active": "fb6cbf16ae2e3bef",
-      "mtime": "2026-01-21T12:28:24-03:00"
+      "active": "a5b60ee37e352677",
+      "mtime": "2026-01-23T11:45:12-03:00"
     }
   },
-  "active": "readme + home"
+  "active": "04 - Homepage & Checklist"
 }

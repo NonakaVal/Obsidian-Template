@@ -1,7 +1,10 @@
 ---
-up: "[[+ Gestão de Conhecimento]]"
+collection:
+  - "[[+ Gestão de Conhecimento]]"
 ---
 Markdown é formatação usada pelo obsidian, e obedece as seguintes regras abaixo, entretanto você também pode formatar usando a barra de opções superior no modo edição, caso esteja no modo leitura basta usar o atalho `Ctrl + E` para alternar entre os modos.
+
+[Documentação de ajuda oficial](https://help.obsidian.md/syntax")
 
 ### Cabeçalhos
 
@@ -144,7 +147,6 @@ Use `\` antes de um caractere especial para exibi-lo literalmente.
 
 ---
 
- Seguir para ➡️  [[03 Propriedades]] 
+ Seguir para ➡️  [[04 Entendendo Coleções]]
 
 
-[Documentação de ajuda oficial](https://help.obsidian.md/syntax")

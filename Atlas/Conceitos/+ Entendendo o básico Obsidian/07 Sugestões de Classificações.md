@@ -1,5 +1,5 @@
 ---
-up: "[[+ Gestão de Conhecimento]]"
+collection: "[[+ Gestão de Conhecimento]]"
 ---
 # Padrões Específicos para Tipos de Notas em PKM
 

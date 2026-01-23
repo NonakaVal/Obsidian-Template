@@ -1,6 +1,6 @@
 {
   "baseFontSizeAction": true,
-  "theme": "moonstone",
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "datacore-classes",
     "Easy multi-column notes",

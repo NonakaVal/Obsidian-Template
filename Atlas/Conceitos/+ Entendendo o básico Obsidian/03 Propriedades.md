@@ -1,5 +1,5 @@
 ---
-up: "[[+ Gestão de Conhecimento]]"
+collection: "[[+ Gestão de Conhecimento]]"
 ---
 No **Obsidian** (e em sistemas de PKM em geral), **metadados** são informações adicionais registradas no início de cada nota, geralmente no formato **YAML frontmatter**:
 
@@ -43,4 +43,4 @@ Esses metadados funcionam como **camadas de contexto**, ajudando a:
 
 <br>
 
- Seguir para ➡️ [[04 Entendendo Mocs]]
+ Seguir para ➡️ [[04 Entendendo Coleções]]

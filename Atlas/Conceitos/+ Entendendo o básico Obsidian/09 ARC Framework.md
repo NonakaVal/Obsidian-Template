@@ -1,5 +1,5 @@
 ---
-up:
+collection:
   - "[[+ Gestão de Conhecimento]]"
 ---
 

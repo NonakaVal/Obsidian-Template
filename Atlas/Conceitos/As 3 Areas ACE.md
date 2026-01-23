@@ -1,5 +1,5 @@
 ---
-up:
+collection:
   - "[[+ ACE Pack]]"
 ---
 - **A – Atlas** → Guarda referências e conhecimento geral. É o “mapa” das suas ideias, conceitos e temas.

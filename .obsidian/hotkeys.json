@@ -343,15 +343,6 @@
       "key": "P"
     }
   ],
-  "workspace:close-others": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "W"
-    }
-  ],
   "workspace:toggle-pin": [
     {
       "modifiers": [
@@ -676,15 +667,6 @@
       "key": "T"
     }
   ],
-  "periodic-notes:open-weekly-note": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
   "audio-recorder:start": [
     {
       "modifiers": [
@@ -777,6 +759,25 @@
         "Shift"
       ],
       "key": "D"
+    }
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ],
+  "periodic-notes:open-weekly-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
     }
   ]
 }

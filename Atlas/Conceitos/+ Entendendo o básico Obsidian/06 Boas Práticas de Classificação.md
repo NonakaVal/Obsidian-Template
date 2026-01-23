@@ -1,5 +1,5 @@
 ---
-up: "[[+ Gestão de Conhecimento]]"
+collection: "[[+ Gestão de Conhecimento]]"
 ---
 # Padrões e Boas Práticas para Gestão de Conhecimento Pessoal
 

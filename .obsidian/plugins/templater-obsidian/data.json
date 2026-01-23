@@ -27,7 +27,7 @@
     }
   ],
   "syntax_highlighting": true,
-  "syntax_highlighting_mobile": false,
+  "syntax_highlighting_mobile": true,
   "enabled_templates_hotkeys": [
     ""
   ],

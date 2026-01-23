@@ -11,7 +11,7 @@
           "name": "📝 Nova Nota",
           "type": "Template",
           "command": true,
-          "templatePath": "X/Templates/Format/T-new-note.md",
+          "templatePath": "X/Templates/Format/T-new-note-collection.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -41,6 +41,36 @@
             "focus": true,
             "mode": "default"
           }
+        },
+        {
+          "id": "865c6740-e809-4abe-b929-d8956a16fd1a",
+          "name": "📁 Nova Coleção",
+          "type": "Template",
+          "command": true,
+          "templatePath": "X/Templates/Format/_ base template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "X/Collections"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
         },
         {
           "id": "61fae8a4-7682-4c0b-b76d-2fe4973abead",
@@ -124,6 +154,49 @@
                 "direction": "vertical",
                 "mode": "default",
                 "focus": true
+              }
+            },
+            {
+              "id": "0df4ba05-4dc9-49a7-922a-87ae347177b9",
+              "name": "✅ Nova Taréfa Calendário (Daily Note)",
+              "type": "Capture",
+              "command": true,
+              "appendLink": false,
+              "captureTo": "Calendar & Review/Daily Notes/{{date}}",
+              "captureToActiveFile": false,
+              "activeFileWritePosition": "cursor",
+              "createFileIfItDoesntExist": {
+                "enabled": true,
+                "createWithTemplate": true,
+                "template": "X/Templates/Format/A-Daily Note Template.md"
+              },
+              "format": {
+                "enabled": true,
+                "format": "✅ {{value}} - {{time}} \\ [[{{date}}]]"
+              },
+              "insertAfter": {
+                "enabled": true,
+                "after": "# Capture",
+                "insertAtEnd": true,
+                "considerSubsections": false,
+                "createIfNotFound": true,
+                "createIfNotFoundLocation": "bottom"
+              },
+              "newLineCapture": {
+                "enabled": false,
+                "direction": "below"
+              },
+              "prepend": false,
+              "task": true,
+              "openFile": false,
+              "fileOpening": {
+                "location": "tab",
+                "direction": "vertical",
+                "mode": "default",
+                "focus": true
+              },
+              "templater": {
+                "afterCapture": "none"
               }
             },
             {
@@ -235,45 +308,6 @@
               },
               "prepend": false,
               "task": false,
-              "openFile": false,
-              "fileOpening": {
-                "location": "tab",
-                "direction": "vertical",
-                "mode": "default",
-                "focus": true
-              }
-            },
-            {
-              "id": "d6571560-c6a1-46c3-ab9a-da9997d11245",
-              "name": "💡 Ideia",
-              "type": "Capture",
-              "command": true,
-              "appendLink": false,
-              "captureTo": "Projects & Areas/💡 Ideas.md",
-              "captureToActiveFile": false,
-              "createFileIfItDoesntExist": {
-                "enabled": true,
-                "createWithTemplate": true,
-                "template": "X/Templates/Format/A-Daily Note Template.md"
-              },
-              "format": {
-                "enabled": true,
-                "format": "💡 {{value}} - {{time}} \\ [[{{date}}]]"
-              },
-              "insertAfter": {
-                "enabled": false,
-                "after": "# Capture",
-                "insertAtEnd": true,
-                "considerSubsections": false,
-                "createIfNotFound": true,
-                "createIfNotFoundLocation": "bottom"
-              },
-              "newLineCapture": {
-                "enabled": false,
-                "direction": "below"
-              },
-              "prepend": false,
-              "task": true,
               "openFile": false,
               "fileOpening": {
                 "location": "tab",
@@ -589,7 +623,7 @@
               "setFileExistsBehavior": false
             }
           ],
-          "collapsed": false
+          "collapsed": true
         },
         {
           "id": "56f7b2bb-3b01-40a6-9a31-83719f02ff75",
@@ -787,8 +821,8 @@
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "X/Templates",
-  "announceUpdates": true,
-  "version": "2.7.0",
+  "announceUpdates": "all",
+  "version": "2.9.4",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
@@ -848,7 +882,8 @@
             "maxTokens": 128000
           }
         ],
-        "autoSyncModels": false
+        "autoSyncModels": false,
+        "modelSource": "auto"
       },
       {
         "name": "Gemini",
@@ -868,7 +903,8 @@
             "maxTokens": 1000000
           }
         ],
-        "autoSyncModels": false
+        "autoSyncModels": false,
+        "modelSource": "auto"
       }
     ]
   },
@@ -880,6 +916,7 @@
     "setVersionAfterUpdateModalRelease": true,
     "addDefaultAIProviders": true,
     "removeMacroIndirection": true,
-    "migrateFileOpeningSettings": true
+    "migrateFileOpeningSettings": true,
+    "setProviderModelDiscoveryMode": true
   }
 }

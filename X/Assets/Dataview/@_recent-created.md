@@ -66,7 +66,7 @@ const pages = dv.pages("")
 // EXIBIÇÃO
 //-----------------------------------------------------
 dv.table(
-    ["", "📄 Nota", "🕒 Modificação", "⏳ Desde modificação"],
+    ["", "📄", "🕒", "⏳"],
     pages.map(p => [
         getIcon(p.file.folder),
         estilizarLink(p),
@@ -149,7 +149,7 @@ for (let grupo of grupos) {
     dv.header(3, `📂 ${grupo.key} (${grupo.rows.length})`);
     
     dv.table(
-        ["Ícone", "Nota", "Modificada em", "Tempo desde modificação"],
+        ["📚", "📄", "🕒", "⏳"],
         grupo.rows.map(p => [
             getIcon(p.file.folder),
             dv.fileLink(p.file.path, false, p.file.name),

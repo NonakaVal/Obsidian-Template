@@ -1,7 +1,7 @@
 ---
-dg-publish: true
 cssclasses:
   - dashboard
+banner: https://w.wallhaven.cc/full/d8/wallhaven-d83g9m.jpg
 ---
 
 

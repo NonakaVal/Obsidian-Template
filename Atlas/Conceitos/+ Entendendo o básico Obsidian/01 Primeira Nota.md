@@ -3,28 +3,36 @@ banner: https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg
 cssclasses:
   - hide-properties_reading
 ---
-Pelo botão :  `BUTTON[new-note]`      ou pelo atalho `ctrl + N` , Toda nota é criada inicialmente da pasta `+`. 
 
-<br>
 
- Seguir para ➡️ [[03 Propriedades]]
+Anote alguma coisa, [[crie um link]] ou pelo atalho `ctrl + N` , Toda nota é criada inicialmente da pasta `+`.   ou :LiArrowBigRight:  `BUTTON[new-note]` 
 
-<br><br><br>
 
-`BUTTON[home]`  `BUTTON[hotkeys]` 
 
 
 ```meta-bind-button
-label: Homepage
+label: Sessões de Introdução
 hidden: true
-icon: home
+icon: space
 class: ""
-id: home
-style: primary
+id: workspaces
+style: destructive
 actions:
   - type: command
-    command: obsidian-hotkeys-for-specific-files:🏠.md-new-tab
+    command: workspaces:load
 ```
+
+
+ou experimente [o Importador](https://help.obsidian.md/Plugins/Importer)!
+
+Seguir :LiArrowBigRight: `BUTTON[workspaces]`
+
+
+
+## 
+   
+
+
 
 ```meta-bind-button
 label: Nova Nota
@@ -41,7 +49,7 @@ actions:
 
 ```meta-bind-button
 label: Atalhos
-hidden: true
+hidden: false
 icon: keyboard
 class: ""
 id: hotkeys
@@ -50,3 +58,9 @@ actions:
   - type: command
     command: obsidian-hotkeys-for-specific-files:X/Assets/_atalhos.md-new-tab
 ```
+
+
+
+
+
+[^1]: Atalho `Alt + W` para acessar Workspaces
