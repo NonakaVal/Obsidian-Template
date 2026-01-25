@@ -5,12 +5,60 @@
       "path": "README.md"
     },
     {
-      "basename": "rebuild vault cache",
-      "path": "X/Media/Images/rebuild vault cache.png"
-    },
-    {
       "basename": "🏠",
       "path": "🏠.md"
+    },
+    {
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+    },
+    {
+      "basename": "@-templates",
+      "path": "X/Assets/Dataview/@-templates.md"
+    },
+    {
+      "basename": "+ Gestão de Conhecimento",
+      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "11 Checklist",
+      "path": "Atlas/Index & Bases/11 Checklist.md"
+    },
+    {
+      "basename": "08 ACE Pack",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
+    },
+    {
+      "basename": "02 Markdown",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
+    },
+    {
+      "basename": "07 Sugestões de Classificações",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md"
+    },
+    {
+      "basename": "06 Boas Práticas de Classificação",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
+    },
+    {
+      "basename": "04 Entendendo Coleções",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
+    },
+    {
+      "basename": "03 Propriedades",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md"
+    },
+    {
+      "basename": "09 ARC Framework",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
+    },
+    {
+      "basename": "Créditos-Atribuições",
+      "path": "Créditos-Atribuições.md"
+    },
+    {
+      "basename": "rebuild vault cache",
+      "path": "X/Media/Images/rebuild vault cache.png"
     },
     {
       "basename": "como + funciona",
@@ -19,10 +67,6 @@
     {
       "basename": "Desenvolvimento Pessoal",
       "path": "Projects & Areas/Areas/Desenvolvimento Pessoal/Desenvolvimento Pessoal.md"
-    },
-    {
-      "basename": "Créditos-Atribuições",
-      "path": "Créditos-Atribuições.md"
     },
     {
       "basename": "nota projeto",
@@ -53,24 +97,12 @@
       "path": "X/Templates/Format/T-new-note-collection.md"
     },
     {
-      "basename": "@-templates",
-      "path": "X/Assets/Dataview/@-templates.md"
-    },
-    {
       "basename": "daily-capture",
       "path": "X/Media/Images/daily-capture.png"
     },
     {
-      "basename": "01 Primeira Nota",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
-    },
-    {
       "basename": "_atalhos",
       "path": "X/Assets/_atalhos.md"
-    },
-    {
-      "basename": "11 Checklist",
-      "path": "Atlas/Index & Bases/11 Checklist.md"
     },
     {
       "basename": "2025-12-11",
@@ -83,10 +115,6 @@
     {
       "basename": "2026-01-23",
       "path": "Calendar & Review/Daily Notes/2026-01-23.md"
-    },
-    {
-      "basename": "02 Markdown",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
     },
     {
       "basename": "A-Daily Note Template",
@@ -103,30 +131,6 @@
     {
       "basename": "A-Weekly Note Template",
       "path": "X/Templates/Format/A-Weekly Note Template.md"
-    },
-    {
-      "basename": "04 Entendendo Coleções",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
-    },
-    {
-      "basename": "+ Gestão de Conhecimento",
-      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "08 ACE Pack",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
-    },
-    {
-      "basename": "03 Propriedades",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md"
-    },
-    {
-      "basename": "09 ARC Framework",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
-    },
-    {
-      "basename": "06 Boas Práticas de Classificação",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
     },
     {
       "basename": "10 dashboard++ (Template)",
@@ -173,10 +177,6 @@
       "path": "X/showcase.md"
     },
     {
-      "basename": "07 Sugestões de Classificações",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md"
-    },
-    {
       "basename": "@_created",
       "path": "X/Assets/Dataview/@_created.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "_-img-link",
       "path": "X/Templates/Snippet/_-img-link.md"
-    },
-    {
-      "basename": "T memo",
-      "path": "X/Templates/Format/T memo.md"
     }
   ],
   "omittedPaths": [],

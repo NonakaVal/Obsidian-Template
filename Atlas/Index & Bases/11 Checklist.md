@@ -1,9 +1,9 @@
 ---
 collection:
   - "[[+ Gestão de Conhecimento]]"
-banner: https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg
 cssclasses:
   - hide-properties_reading
+banner: https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg
 ---
 # Fundamentos & Configuração
 

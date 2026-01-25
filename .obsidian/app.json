@@ -11,6 +11,7 @@
   "foldIndent": true,
   "autoConvertHtml": true,
   "userIgnoreFilters": null,
-  "showLineNumber": true,
-  "trashOption": "local"
+  "showLineNumber": false,
+  "trashOption": "local",
+  "showIndentGuide": true
 }

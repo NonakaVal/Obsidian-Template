@@ -16,8 +16,7 @@ dg-publish: true
 
 Este pacote está licenciado sob a licença **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**.
 
-Agradecimentos especiais: À comunidade inicial do Obsidian e a muitas pessoas que compartilharam feedback sobre versões anteriores. 
-Eu escuto tudo o que posso.
+Agradecimentos especiais: À comunidade inicial do Obsidian.
 # Outros Recursos 
 
 >    Meu canal Youtube

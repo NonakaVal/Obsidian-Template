@@ -4,9 +4,6 @@
 
 
 
-<br><br>
-
-<br><br>
 
 
 ---
@@ -29,7 +26,6 @@ Esta pasta já inclui uma configuração `.obsidian` pronta para uso (plugins, s
 - ![[As 3 Areas ACE]]
 - [[Estrutura base]]
 
-
 <br>
 
 # Funcionalidades
@@ -44,15 +40,12 @@ Esta pasta já inclui uma configuração `.obsidian` pronta para uso (plugins, s
 
 #### 💭 Daily Captures
 
+> Registros rápidos nas notas diárias
+
 ![[daily-capture.png]]
 
 #### ⚡ Templates
 
-> Templates de Áreas e Projetos
-
-![[areas-projetos.png|900]]
-
->  Outros
 
 ````tabs
 tab: Formatação
@@ -76,10 +69,10 @@ LIMIT 10
 ####  🗄️ Bases  
 
 
-- Visualizações
-	- Templates
-	- Assets
-	- Snippets de CSS de: https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets
+> Visualizações
+> - Templates
+> - Assets
+> - Snippets de CSS de: https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets
 
 <center>
   <img src="https://imgur.com/DVkq04P.jpg" width="100%">
@@ -91,9 +84,30 @@ LIMIT 10
 ![[_atalhos]]
 
 
+<br>
+
+# Próximos Passos 
+
+```meta-bind-button
+label: Começe Aqui (Tópicos em Ordem)
+hidden: false
+icon: space
+class: ""
+id: workspaces
+style: destructive
+actions:
+  - type: command
+    command: workspaces:load
+```
 
 
 
+
+---
+
+<br>
+<br>
+<br>
 
 # 🔌 Lista de Plugins da Comunidade
 - **[Calendar](https://obsidian.md/plugins?id=calendar)** – Visualização em calendário integrada às notas diárias 
@@ -120,40 +134,23 @@ LIMIT 10
 
 - Bugs de sistema e de blocos de plugins.
 
-![[rebuild vault cache.png]]
+![[rebuild vault cache.png|600]]
 
 - Snippets de CSS não aplicam: Configurações → Aparência → Snippets de CSS → ative o snippet desejado.
 
-![[snippetss.png]]
+![[snippetss.png|500]]
 
 - Templater não executa: confirme o caminho da pasta de Templates nas configurações do plugin.
-# 🗃️ Arquivos / Recursos principais
-
-- `.obsidian/` — configurações e plugins instalados.
-- `Templates/Format/_ base template.md` — template base para novas notas.
-- `Assets/Dataview/` — consultas e dashboards prontos para uso com Dataview.
-    
 
 
-# Tópicos 
-
-```meta-bind-button
-label: Começe Aqui (Tópicos em Ordem)
-hidden: false
-icon: space
-class: ""
-id: workspaces
-style: destructive
-actions:
-  - type: command
-    command: workspaces:load
-```
 
 
-# Créditos/Atribuições
+<br><br><br><br>
+
+
+---
+
+
+
 
 ![[Créditos-Atribuições]]
-```
-````
-
-

@@ -5,7 +5,7 @@ cssclasses:
 ---
 
 
-Anote alguma coisa, [[crie um link]] ou pelo atalho `ctrl + N` , Toda nota é criada inicialmente da pasta `+`.   ou :LiArrowBigRight:  `BUTTON[new-note]` 
+Anote alguma coisa, [[crie um link]] ou pelo atalho `ctrl + N` , Toda nota é criada inicialmente da pasta `+`.   ou :LiArrowBigRight:  `BUTTON[new-note]`  ou Seguir :LiArrowBigRight: `BUTTON[workspaces]` 
 
 
 
@@ -23,13 +23,16 @@ actions:
 ```
 
 
-ou experimente [o Importador](https://help.obsidian.md/Plugins/Importer)!
-
-Seguir :LiArrowBigRight: `BUTTON[workspaces]`
 
 
 
-## 
+
+<br><br><br><br>
+
+`BUTTON[hotkeys]`
+
+
+
    
 
 
@@ -49,7 +52,7 @@ actions:
 
 ```meta-bind-button
 label: Atalhos
-hidden: false
+hidden: true
 icon: keyboard
 class: ""
 id: hotkeys
@@ -58,9 +61,6 @@ actions:
   - type: command
     command: obsidian-hotkeys-for-specific-files:X/Assets/_atalhos.md-new-tab
 ```
-
-
-
 
 
 [^1]: Atalho `Alt + W` para acessar Workspaces

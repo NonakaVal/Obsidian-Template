@@ -9,4 +9,4 @@ views:
         - file.inFolder("Atlas/Index & Bases")
     image: note.banner
     imageAspectRatio: 0.8
-    cardSize: 120
+    cardSize: 90

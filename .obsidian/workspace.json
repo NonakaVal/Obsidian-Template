@@ -21,6 +21,31 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "5a836dfdf8fb08b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "🏠"
+            }
+          },
+          {
+            "id": "0eb7bb9958436b6c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
           }
         ]
       }
@@ -35,19 +60,6 @@
         "id": "3ba83bbb7904c6a3",
         "type": "tabs",
         "children": [
-          {
-            "id": "b34c0f902b1265c0",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de arquivos"
-            }
-          },
           {
             "id": "f7119f2528338e15",
             "type": "leaf",
@@ -100,8 +112,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,6 +126,19 @@
         "id": "c4e9b6b7a7b97459",
         "type": "tabs",
         "children": [
+          {
+            "id": "b34c0f902b1265c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
           {
             "id": "2386ef8588c3dc8e",
             "type": "leaf",
@@ -150,10 +174,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "X/Templates/Format/Z-project note.md"
+                "file": "README.md"
               },
               "icon": "lucide-info",
-              "title": "Propriedades do arquivo Z-project note"
+              "title": "Propriedades do arquivo README"
             }
           },
           {
@@ -162,12 +186,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "X/Assets/Dataview/@-templates.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from @-templates"
+              "title": "Links de saída para README"
             }
           },
           {
@@ -186,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "area 1.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +220,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para area 1"
+              "title": "Links inversos para README"
             }
           }
         ]
@@ -222,16 +246,28 @@
   },
   "active": "2f4da4148c8faf6f",
   "lastOpenFiles": [
+    "🏠.md",
+    "README.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
+    "+/crie um link.md",
+    "X/Assets/Dataview/@-templates.md",
+    "Atlas/Index & Bases/+ Gestão de Conhecimento.md",
+    "Atlas/Index & Bases/11 Checklist.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+    "Créditos-Atribuições.md",
     "X/Media/Images/snippetss.png",
     "X/Media/Images/rebuild vault cache.png",
-    "README.md",
-    "🏠.md",
     "Calendar & Review/Daily Notes/2026-01-25.md",
     "+/como + funciona.md",
     "+/Hotkeys.md",
     "X/Media/Images/areas-projetos.png",
     "Projects & Areas/Areas/Desenvolvimento Pessoal/Desenvolvimento Pessoal.md",
-    "Créditos-Atribuições.md",
     "area 1.md",
     "Projects & Areas/Projects/Ongoing/Projeto Exemplo/nota projeto.md",
     "Projects & Areas/Projects/Ongoing/Projeto Exemplo/Projeto Exemplo.md",
@@ -242,22 +278,11 @@
     "Projects & Areas/Projects",
     "X/Templates/Format/Z-project note.md",
     "X/Templates/Format/Z-new-area-note.md",
-    "X/Templates/Format/T-new-area.md",
-    "Projects & Areas/Projects/Ongoing/Projeto Exemplo 1/Projeto Exemplo 1.md",
-    "Projects & Areas/Areas/Desenvolvimento Pessoal/nota area 1.md",
-    "X/Templates/Format/T-new-note-collection.md",
-    "X/Assets/Dataview/@-templates.md",
     "Projects & Areas/Areas/Desenvolvimento Pessoal",
     "Projects & Areas/Areas",
     "Projects & Areas/Projects/Ongoing/Projeto Exemplo 1",
     "Projects & Areas",
     "X/Media/Images/daily-capture.png",
-    "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
-    "X/Assets/_atalhos.md",
-    "Atlas/Index & Bases/11 Checklist.md",
-    "Calendar & Review/Daily Notes/2025-12-11.md",
-    "Calendar & Review/Daily Notes/2026-01-21.md",
-    "Calendar & Review/Daily Notes/2026-01-23.md",
     "Calendar & Review/Weekly Notes",
     "Calendar & Review/Monthly Notes",
     "X/Media/arc-flow.png",
@@ -268,7 +293,6 @@
     "X/Media/Images/Acessar Pro.png",
     "+/nen-system-hxh.canvas",
     "X/Media/Images/Pasted image 20251209000400.png",
-    "X/Media/Images/Pasted image 20251209000351.png",
     "Projects & Areas/Projects/Archives/independent/webdesign/web.design.canvas",
     "Projects & Areas/Projects/Ongoing/Obsidian Community/Untitled.canvas",
     "Knowlegde/Maps &  Index/34.2 Maps/+_CANVAS_AOC.canvas",

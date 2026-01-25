@@ -24,6 +24,10 @@
     {
       "filePattern": "🏠",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "README",
+      "viewMode": "obsidianUIMode: preview"
     }
   ]
 }
