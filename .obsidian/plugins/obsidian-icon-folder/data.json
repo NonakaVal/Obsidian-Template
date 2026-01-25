@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiFolderDown",
+      "LiTrees",
+      "LiNetwork",
+      "LiAlbum",
+      "LiCalendar"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -27,5 +33,11 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "Atlas": "LiBrain",
+  "Calendar & Review": "LiCalendar",
+  "Memos": "LiAlbum",
+  "Projects & Areas": "LiNetwork",
+  "Projects & Areas/Areas": "LiTrees",
+  "Projects & Areas/Projects": "LiFolderDown"
 }

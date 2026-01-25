@@ -14,7 +14,7 @@ id: TEMPLATE-CRIAR-NOVA-AREA
 style: primary
 actions:
   - type: command
-    command: quickadd:choice:6430f0b6-4d07-44f9-9b1a-45e79f6bee19
+    command: quickadd:choice:af918711-f369-4c1a-a442-766c0664e710
 ```
 
 `Ctrl + Shift + A`

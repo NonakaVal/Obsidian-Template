@@ -17,6 +17,10 @@
     {
       "folder": "Knowlegde/Books",
       "template": "System/Templates/Format/Book template.md"
+    },
+    {
+      "folder": "",
+      "template": ""
     }
   ],
   "enable_file_templates": false,

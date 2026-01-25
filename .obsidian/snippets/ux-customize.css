@@ -1,5 +1,5 @@
 /* Hide the media folder */
-div[data-path="Projects & Areas/Projects/Archives"] {
+div[data-path="Créditos-Atribuições.md"] {
   display: none;
 }
 

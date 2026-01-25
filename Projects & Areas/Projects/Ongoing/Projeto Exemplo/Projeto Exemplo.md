@@ -1,8 +1,8 @@
 ---
-project: "[[<% tp.file.folder() %>]]"
-tags:
+project: "[[Projeto Exemplo]]"
+tags: project/projeto_exemplo
 type: project
-created: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
+created: "[[2026-01-25]]"
 ---
 
 ```meta-bind-button
@@ -23,7 +23,7 @@ actions:
 ---
 ## 🧾 Descrição do Projeto
 
-<%tp.file.cursor()%>
+
 
 
 
@@ -59,11 +59,4 @@ ___
 
 
 
-<%* tp.hooks.on_all_templates_executed(async () => { 
-    const file = tp.file.find_tfile(tp.file.path(true)); 
-    const task_tag_value = tp.file.folder().toLowerCase().split(" ").join("_");
-    await app.fileManager.processFrontMatter(file, (frontmatter) => { 
-        frontmatter["tags"] = `project/${task_tag_value}`; 
-    }); 
-}); -%>
 

@@ -1,20 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "01 Primeira Nota",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "11 Checklist",
-      "path": "Atlas/Index & Bases/11 Checklist.md"
+      "basename": "rebuild vault cache",
+      "path": "X/Media/Images/rebuild vault cache.png"
     },
     {
       "basename": "🏠",
       "path": "🏠.md"
+    },
+    {
+      "basename": "como + funciona",
+      "path": "+/como + funciona.md"
+    },
+    {
+      "basename": "Desenvolvimento Pessoal",
+      "path": "Projects & Areas/Areas/Desenvolvimento Pessoal/Desenvolvimento Pessoal.md"
+    },
+    {
+      "basename": "Créditos-Atribuições",
+      "path": "Créditos-Atribuições.md"
+    },
+    {
+      "basename": "nota projeto",
+      "path": "Projects & Areas/Projects/Ongoing/Projeto Exemplo/nota projeto.md"
+    },
+    {
+      "basename": "Projeto Exemplo",
+      "path": "Projects & Areas/Projects/Ongoing/Projeto Exemplo/Projeto Exemplo.md"
+    },
+    {
+      "basename": "T-new-project",
+      "path": "X/Templates/Format/T-new-project.md"
+    },
+    {
+      "basename": "Z-project note",
+      "path": "X/Templates/Format/Z-project note.md"
+    },
+    {
+      "basename": "Z-new-area-note",
+      "path": "X/Templates/Format/Z-new-area-note.md"
+    },
+    {
+      "basename": "T-new-area",
+      "path": "X/Templates/Format/T-new-area.md"
+    },
+    {
+      "basename": "T-new-note-collection",
+      "path": "X/Templates/Format/T-new-note-collection.md"
+    },
+    {
+      "basename": "@-templates",
+      "path": "X/Assets/Dataview/@-templates.md"
+    },
+    {
+      "basename": "daily-capture",
+      "path": "X/Media/Images/daily-capture.png"
+    },
+    {
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+    },
+    {
+      "basename": "_atalhos",
+      "path": "X/Assets/_atalhos.md"
+    },
+    {
+      "basename": "11 Checklist",
+      "path": "Atlas/Index & Bases/11 Checklist.md"
     },
     {
       "basename": "2025-12-11",
@@ -31,10 +87,6 @@
     {
       "basename": "02 Markdown",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
-    },
-    {
-      "basename": "@-templates",
-      "path": "X/Assets/Dataview/@-templates.md"
     },
     {
       "basename": "A-Daily Note Template",
@@ -77,10 +129,6 @@
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
     },
     {
-      "basename": "_atalhos",
-      "path": "X/Assets/_atalhos.md"
-    },
-    {
       "basename": "10 dashboard++ (Template)",
       "path": "Atlas/Index & Bases/10 dashboard++ (Template).md"
     },
@@ -105,24 +153,12 @@
       "path": "X/Assets/Dataview/@-collections.md"
     },
     {
-      "basename": "T-new-note-collection",
-      "path": "X/Templates/Format/T-new-note-collection.md"
-    },
-    {
       "basename": "T-new-note-base",
       "path": "X/Templates/Format/T-new-note-base.md"
     },
     {
-      "basename": "como + funciona",
-      "path": "+/como + funciona.md"
-    },
-    {
       "basename": "nota 1",
       "path": "+/nota 1.md"
-    },
-    {
-      "basename": "T-new-area",
-      "path": "X/Templates/Format/T-new-area.md"
     },
     {
       "basename": "05 Entendendo Mocs",
@@ -161,24 +197,8 @@
       "path": "X/Templates/Snippet/_-img-link.md"
     },
     {
-      "basename": "Z-project note",
-      "path": "X/Templates/Format/Z-project note.md"
-    },
-    {
-      "basename": "Z-new-area-note",
-      "path": "X/Templates/Format/Z-new-area-note.md"
-    },
-    {
-      "basename": "T-new-project",
-      "path": "X/Templates/Format/T-new-project.md"
-    },
-    {
       "basename": "T memo",
       "path": "X/Templates/Format/T memo.md"
-    },
-    {
-      "basename": "@_modified",
-      "path": "X/Assets/Dataview/@_modified.md"
     }
   ],
   "omittedPaths": [],

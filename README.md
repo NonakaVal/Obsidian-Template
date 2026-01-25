@@ -1,10 +1,18 @@
-Este é o seu novo *vault*.
+# ⚠️ Antes de usar
 
+> ⚠️ Está vault é um template -  ⚠️ Não está Padrão do [Obisidian.md](https://obsidian.md/) - ⚠️ Leia A apresentação Abaixo para o uso 
+
+
+
+<br><br>
+
+<br><br>
 
 
 ---
 
-# Introdução
+
+# Introdução 
 
 Estrutura base para um vault do Obsidian contendo templates, snippets, bases de notas e scripts auxiliares. Projetado como um esqueleto reutilizável para organização pessoal, Zettelkasten, gerenciamento de projetos e automações (scripts em Python).
 
@@ -16,62 +24,56 @@ Esta pasta já inclui uma configuração `.obsidian` pronta para uso (plugins, s
 ![img|400](https://imgur.com/TTkN4ay.png)
 
 
-## :LiInfo: :LiArrowBigRight:  [[As 3 Areas ACE]]
-## :LiFolder: :LiArrowBigRight: [[Estrutura base]]
+# Conceitos Importantes
 
----
+- ![[As 3 Areas ACE]]
+- [[Estrutura base]]
+
 
 <br>
 
-
 # Funcionalidades
 
-## Criação de notas 
 
-- `Ctrl + N` para criar uma nova nota – plugin [QuickAdd](https://github.com/chhoumann/quickadd) ![](https://imgur.com/f6ezubJ.png)
+#### ➕ Criação de notas 
 
-## Templates
+- `Ctrl + N` para criar uma nova nota – plugin [QuickAdd](https://github.com/chhoumann/quickadd)
+
+![](https://imgur.com/f6ezubJ.png)
+
+
+#### 💭 Daily Captures
+
+![[daily-capture.png]]
+
+#### ⚡ Templates
+
+> Templates de Áreas e Projetos
+
+![[areas-projetos.png|900]]
+
+>  Outros
 
 ````tabs
-tab: 📜 Formato
+tab: Formatação
+
 ```dataview
 TABLE without id file.link as "Template"
 FROM "X/Templates/Format"
 SORT file.name asc
 LIMIT 7
-`````
-
-tab: & Snippets
-
+```
+tab: Snippets
 ```dataview
 TABLE without id file.link as "Template"
 FROM "X/Templates/Snippet"
 SORT file.name asc
 LIMIT 10
 ```
-
 ````
-## Plugins
-- **Calendar** – Visualização em calendário integrada às notas diárias
-- **Callout Manager** – Crie e gerencie callouts sem escrever CSS
-- **Dataview** – Consulte e organize notas como um banco de dados
-- **Force note view mode** – Força um modo de visualização padrão (leitura ou edição) por nota
-- **Hotkeys for specific files** – Atalhos personalizados para abrir arquivos específicos rapidamente
-- **Iconize** – Adicione ícones personalizados a arquivos, pastas e links
-- **Meta Bind** – Campos interativos ligados diretamente ao frontmatter
-- **Outliner** – Edição em estilo de lista com atalhos aprimorados
-- **Paste URL into selection** – Converte automaticamente o texto selecionado em link
-- **Periodic Notes** – Crie e gerencie notas semanais, mensais e anuais
-- **QuickAdd** – Captura rápida de conteúdo usando comandos, templates e automações
-- **Recent Files** – Acesso rápido a notas abertas recentemente
-- **Style Settings** – Interface gráfica para personalizar temas e estilos de plugins
-- **Tabs** – Navegação por abas dentro do Obsidian
-- **Simple Banner** – Adicione banners visuais às notas
-- **Tag Wrangler** – Renomeie, una e gerencie tags em todo o vault
-- **Paste Image Rename** – Renomeia automaticamente imagens coladas
-- **Settings Search** – Busca e navegação rápidas nas configurações do Obsidian
 
-## Bases :LiArrowBigRight: [[X.base]]
+
+####  🗄️ Bases  
 
 
 - Visualizações
@@ -84,27 +86,74 @@ LIMIT 10
 </center>
 
 
-## Atalhos de teclado
+#### ⌨️ Atalhos de teclado
 
-![[Hotkeys]]
+![[_atalhos]]
 
-# Correções de problemas comuns
 
-- Plugins não aparecem: mova a pasta `.obsidian` para dentro do diretório do vault e reinicie o Obsidian.
+
+
+
+
+# 🔌 Lista de Plugins da Comunidade
+- **[Calendar](https://obsidian.md/plugins?id=calendar)** – Visualização em calendário integrada às notas diárias 
+- **[Callout Manager](https://obsidian.md/plugins?id=callout-manager)** – Crie e gerencie callouts sem escrever CSS
+- **[Dataview](https://obsidian.md/plugins?id=dataview)** – Consulte e organize notas como um banco de dados
+- **[Force note view mode](https://obsidian.md/plugins?id=obsidian-view-mode-by-frontmatter)** – Força um modos de visualização
+- **[Hotkeys for specific files](https://obsidian.md/plugins?id=obsidian-hotkeys-for-specific-files)** – Atalhos personalizados para abrir arquivos específicos 
+- **[Iconize](https://obsidian.md/plugins?id=obsidian-icon-folder)** – Adicione ícones personalizados a arquivos, pastas e links
+- **[Meta Bind](https://obsidian.md/plugins?id=obsidian-meta-bind-plugin)** – Campos interativos ligados diretamente ao frontmatter
+- **[Outliner](https://obsidian.md/plugins?id=obsidian-outliner)** – Edição em estilo de lista com atalhos aprimorados
+- **[Paste URL into selection](https://obsidian.md/plugins?id=url-into-selection)** – Converte automaticamente o texto selecionado em link
+- **[Periodic Notes](https://obsidian.md/plugins?id=periodic-notes)** – Crie e gerencie notas semanais, mensais e anuais
+- **[QuickAdd](https://obsidian.md/plugins?id=quickadd)** – Captura rápida de conteúdo usando comandos, templates e automações
+- **[Recent Files](https://obsidian.md/plugins?id=recent-files-obsidian)** – Acesso rápido a notas abertas recentemente
+- **[Tabs](https://obsidian.md/plugins?id=tabs)** – Navegação por abas dentro do Obsidian
+- **[Simple Banner](https://obsidian.md/plugins?id=simple-banner)** – Adicione banners visuais às notas
+- **[Tag Wrangler](https://obsidian.md/plugins?id=tag-wrangler)** – Renomeie, una e gerencie tags em todo o vault
+- **[Paste Image Rename](https://obsidian.md/plugins?id=obsidian-paste-image-rename)** – Renomeia automaticamente imagens coladas
+- **[Settings Search](https://obsidian.md/plugins?id=settings-search)** – Busca e navegação rápidas nas configurações do Obsidian
+
+
+
+# 🆘 Correções de problemas comuns
+
+- Bugs de sistema e de blocos de plugins.
+
+![[rebuild vault cache.png]]
+
 - Snippets de CSS não aplicam: Configurações → Aparência → Snippets de CSS → ative o snippet desejado.
-- Templater não executa: confirme o caminho da pasta de Templates nas configurações do plugin.
-    
 
-## Arquivos / Recursos principais
+![[snippetss.png]]
+
+- Templater não executa: confirme o caminho da pasta de Templates nas configurações do plugin.
+# 🗃️ Arquivos / Recursos principais
 
 - `.obsidian/` — configurações e plugins instalados.
 - `Templates/Format/_ base template.md` — template base para novas notas.
-- `Scripts/organizacao_obsidian/ChanGe-Templates-Folder.py` — script para reorganizar templates (leia antes de executar).
 - `Assets/Dataview/` — consultas e dashboards prontos para uso com Dataview.
     
 
 
+# Tópicos 
 
-![[Créditos & Atribuição]]
+```meta-bind-button
+label: Começe Aqui (Tópicos em Ordem)
+hidden: false
+icon: space
+class: ""
+id: workspaces
+style: destructive
+actions:
+  - type: command
+    command: workspaces:load
+```
+
+
+# Créditos/Atribuições
+
+![[Créditos-Atribuições]]
 ```
 ````
+
+

@@ -21,10 +21,10 @@
     "table-view",
     "prismCalloutStyling"
   ],
-  "baseFontSize": 15,
+  "baseFontSize": 12,
   "showRibbon": true,
-  "cssTheme": "Things",
-  "showViewHeader": false,
+  "cssTheme": "Border",
+  "showViewHeader": true,
   "accentColor": "",
   "nativeMenus": false
 }

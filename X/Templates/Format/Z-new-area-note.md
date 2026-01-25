@@ -1,7 +1,6 @@
 ---
 area:
   - "[[<% tp.file.folder() %>]]"
-summary:
 tags:
 type: area_note
 created: '[[<% tp.date.now("YYYY-MM-DD") %>]]'
