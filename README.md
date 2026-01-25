@@ -4,7 +4,7 @@
 
 > ⚠️ Está vault é um template -   Não está Padrão do [Obisidian.md](https://obsidian.md/) -  Leia A apresentação Abaixo para o uso 
 
-> 🔗 [Github Template Repo](https://github.com/NonakaVal/Obsidian-PKM-Intro-Template-Vault) -  ⬇️ `.zip` [Download Link](https://github.com/NonakaVal/Obsidian-PKM-Intro-Template-Vault/raw/refs/heads/main/Obsidian-PKM-Intro-Template-Vault.zip)
+
 
 
 
@@ -13,9 +13,10 @@
 
 
 
-Estrutura base para um vault do Obsidian contendo templates, snippets, bases de notas e scripts auxiliares. Projetado como um esqueleto reutilizável para organização pessoal, Zettelkasten, gerenciamento de projetos e automações (scripts em Python).
+Estrutura base para um vault do Obsidian contendo templates, snippets, bases de notas e scripts auxiliares.
 
-Esta pasta já inclui uma configuração `.obsidian` pronta para uso (plugins, snippets, temas), além de coleções de templates / CSS / scripts para acelerar a criação de novos vaults.
+> 🔗 [Github Template Repo](https://github.com/NonakaVal/Obsidian-PKM-Intro-Template-Vault) -  ⬇️ `.zip` [Download Link](https://github.com/NonakaVal/Obsidian-PKM-Intro-Template-Vault/raw/refs/heads/main/Obsidian-PKM-Intro-Template-Vault.zip)
+
 # Alterações e estrutura de uso proposta
 
 
