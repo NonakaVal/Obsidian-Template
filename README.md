@@ -2,7 +2,7 @@
 # Introdução 
 
 
-> ⚠️ Está vault é um template -  ⚠️ Não está Padrão do [Obisidian.md](https://obsidian.md/) - ⚠️ Leia A apresentação Abaixo para o uso 
+> ⚠️ Está vault é um template -   Não está Padrão do [Obisidian.md](https://obsidian.md/) -  Leia A apresentação Abaixo para o uso 
 
 > 🔗 [Github Template Repo](https://github.com/NonakaVal/Obsidian-PKM-Intro-Template-Vault) -  ⬇️ `.zip` [Download Link](https://github.com/NonakaVal/Obsidian-PKM-Intro-Template-Vault/raw/refs/heads/main/Obsidian-PKM-Intro-Template-Vault.zip)
 
