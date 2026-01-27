@@ -21,9 +21,6 @@ Estrutura base para um vault do Obsidian contendo templates, snippets, bases de 
 
 
 
-![img|400](https://imgur.com/TTkN4ay.png)
-
-
 # Conceitos Importantes
 
 - ![[As 3 Areas ACE]]

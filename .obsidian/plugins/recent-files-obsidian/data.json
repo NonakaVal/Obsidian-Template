@@ -5,12 +5,24 @@
       "path": "README.md"
     },
     {
-      "basename": "🏠",
-      "path": "🏠.md"
+      "basename": "As 3 Areas ACE",
+      "path": "Atlas/Conceitos/As 3 Areas ACE.md"
     },
     {
       "basename": "01 Primeira Nota",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+    },
+    {
+      "basename": "arc-flow",
+      "path": "X/Media/arc-flow.png"
+    },
+    {
+      "basename": "02 Markdown",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
+    },
+    {
+      "basename": "🏠",
+      "path": "🏠.md"
     },
     {
       "basename": "@-templates",
@@ -27,10 +39,6 @@
     {
       "basename": "08 ACE Pack",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
-    },
-    {
-      "basename": "02 Markdown",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
     },
     {
       "basename": "07 Sugestões de Classificações",
@@ -139,10 +147,6 @@
     {
       "basename": "Boards",
       "path": "Atlas/Index & Bases/Boards.base"
-    },
-    {
-      "basename": "As 3 Areas ACE",
-      "path": "Atlas/Conceitos/As 3 Areas ACE.md"
     },
     {
       "basename": "2026-01-23-memo-Não Esquecer",
