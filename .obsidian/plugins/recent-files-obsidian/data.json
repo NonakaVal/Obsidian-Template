@@ -5,16 +5,28 @@
       "path": "Boas Vindas.md"
     },
     {
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+    },
+    {
+      "basename": "_atalhos",
+      "path": "X/Assets/_atalhos.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "🏠",
-      "path": "🏠.md"
+      "basename": "Estrutura base",
+      "path": "Atlas/Conceitos/Estrutura base.md"
     },
     {
-      "basename": "01 Primeira Nota",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+      "basename": "As 3 Areas ACE",
+      "path": "Atlas/Conceitos/As 3 Areas ACE.md"
+    },
+    {
+      "basename": "🏠",
+      "path": "🏠.md"
     },
     {
       "basename": "08 ACE Pack",
@@ -45,10 +57,6 @@
       "path": "Atlas/Index & Bases/11 Checklist.md"
     },
     {
-      "basename": "_atalhos",
-      "path": "X/Assets/_atalhos.md"
-    },
-    {
       "basename": "04 Entendendo Coleções",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
     },
@@ -57,20 +65,12 @@
       "path": "Atlas/Index & Bases/10 dashboard++ (Template).md"
     },
     {
-      "basename": "Estrutura base",
-      "path": "Atlas/Conceitos/Estrutura base.md"
-    },
-    {
       "basename": "09 ARC Framework",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
     },
     {
       "basename": "06 Boas Práticas de Classificação",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
-    },
-    {
-      "basename": "As 3 Areas ACE",
-      "path": "Atlas/Conceitos/As 3 Areas ACE.md"
     },
     {
       "basename": "arc-flow",

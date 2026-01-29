@@ -1,13 +1,4 @@
-
-
-
-
-
-
-
-Anote alguma coisa, [[crie um link]] ou pelo atalho `ctrl + N` , Toda nota é criada inicialmente da pasta `+`.   ou :LiArrowBigRight:  `BUTTON[new-note]`  ou Seguir :LiArrowBigRight: `BUTTON[workspaces]` 
-
-
+Anote alguma coisa, [[crie um link]] ou pelo atalho `ctrl + N` , Toda nota é criada inicialmente da pasta `+`.   
 
 
 ```meta-bind-button
@@ -35,7 +26,10 @@ actions:
 
 
 
-   
+   ou :LiArrowBigRight:  `BUTTON[new-note]`  ou Seguir :LiArrowBigRight: `BUTTON[workspaces]` 
+
+
+
 
 
 

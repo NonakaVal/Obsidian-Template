@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlarmMinus",
       "LiFolderDown",
       "LiTrees",
       "LiNetwork",
-      "LiAlbum",
-      "LiCalendar"
+      "LiAlbum"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,6 @@
   "Memos": "LiAlbum",
   "Projects & Areas": "LiNetwork",
   "Projects & Areas/Areas": "LiTrees",
-  "Projects & Areas/Projects": "LiFolderDown"
+  "Projects & Areas/Projects": "LiFolderDown",
+  "X/Assets/_atalhos.md": "LiAlarmMinus"
 }

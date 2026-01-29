@@ -16,8 +16,12 @@
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "folder": "Atlas",
+      "folder": "Atlas/Index & Bases",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "",
+      "viewMode": ""
     }
   ],
   "files": [

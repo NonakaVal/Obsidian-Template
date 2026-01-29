@@ -9,7 +9,7 @@
 # Próximos Passos 
 
 
-`BUTTON[workspaces]` :LiOption: `BUTTON[readme]` 
+`BUTTON[workspaces]` :LiOption: `BUTTON[keyboard]`  :LiOption: `BUTTON[readme]`    
 
 ```meta-bind-button
 label: Começe Aqui (Tópicos em Ordem)
@@ -35,3 +35,14 @@ actions:
     command: obsidian-hotkeys-for-specific-files:README.md-new-tab
 ```
 
+```meta-bind-button
+label: Atalhos
+hidden: true
+icon: keyboard
+class: ""
+id: keyboard
+style: primary
+actions:
+  - type: command
+    command: obsidian-hotkeys-for-specific-files:X/Assets/_atalhos.md-new-tab
+```
