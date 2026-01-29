@@ -21,7 +21,7 @@
     "table-view",
     "prismCalloutStyling"
   ],
-  "baseFontSize": 12,
+  "baseFontSize": 15,
   "showRibbon": true,
   "cssTheme": "Border",
   "showViewHeader": true,

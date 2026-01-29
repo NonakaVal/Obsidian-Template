@@ -1,8 +1,8 @@
----
-banner: https://w.wallhaven.cc/full/7j/wallhaven-7jgyre.jpg
-cssclasses:
-  - hide-properties_reading
----
+
+
+
+
+
 
 
 Anote alguma coisa, [[crie um link]] ou pelo atalho `ctrl + N` , Toda nota é criada inicialmente da pasta `+`.   ou :LiArrowBigRight:  `BUTTON[new-note]`  ou Seguir :LiArrowBigRight: `BUTTON[workspaces]` 

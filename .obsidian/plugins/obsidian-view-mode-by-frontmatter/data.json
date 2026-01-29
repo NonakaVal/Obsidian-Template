@@ -28,6 +28,10 @@
     {
       "filePattern": "README",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Boas Vindas",
+      "viewMode": "obsidianUIMode: preview"
     }
   ]
 }

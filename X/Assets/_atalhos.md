@@ -5,21 +5,29 @@ cssclasses:
   - hide-properties_editing
 ---
 
-| 🎛️ Paleta de comandos | `Ctrl + P`         |
-| ---------------------- | ------------------ |
-| ➡️ Quick Switcher      | `Ctrl + O`         |
-| 🗓️ Daily Note         | `Ctrl + Shift + D` |
-| 📌 Fixar/Desfixar nota | `Alt + F`          |
-| ➕ New Note             | `Ctrl + N`         |
-| 🧠 Show Local Graph    | `Ctrl + G`         |
-| 🔖 Add (Footnote)      | `Ctrl + Shift + V` |
-| 🔖 Add File Property   | `Ctrl + ;`         |
-| 📑 Show Bookmarks      | `Ctrl + Shift + B` |
-| ⭐ Bookmark All Tabs    | `Alt + B`          |
-| 🗂️ File Explorer      | `Ctrl + Shift + P` |
-| 📄 Show Outline        | `Ctrl + Shift + O` |
-| 🔍 Search in Files     | `Ctrl + Shift + F` |
-| 🚪 Close Tab           | `Ctrl + W`         |
-| 🚪 Close Window        | `Ctrl + Shift + W` |
-| 🗑️ Delete File        | `Ctrl + Shift + -` |
-| 📦 Move File           | `Alt + M`          |
+| Comando (descrição)             | Atalho             |
+| ------------------------------- | ------------------ |
+| 👈 Toggle Left Sidebar          | `Alt + ]`          |
+| 👉 Toggle Right Sidebar         | `Alt + [`          |
+| ◀️ Focus Previous Pane          | `Alt + PageDown`   |
+| ▶️ Focus Next Pane              | `Alt + PageUp`     |
+| 📄 Show Outline                 | `Ctrl + Shift + O` |
+| 🗂️ Open Workspace Switcher     | `Alt + A`          |
+| 📂 Load Workspace               | `Alt + W`          |
+| 💾 Save Workspace               | `Alt + Ctrl + S`   |
+| 🚪 Close Other Tabs             | `Alt + Ctrl + W`   |
+| 📌 Pin / Unpin Tab              | `Alt + F`          |
+| ⭐ Bookmark All Tabs             | `Alt + B`          |
+| 🔖 Show Bookmarks               | `Ctrl + Shift + B` |
+| 📦 Move File                    | `Alt + M`          |
+| 🗑️ Delete File                 | `Ctrl + Shift + -` |
+| 🏠 Open Homepage                | `Alt + H`          |
+| 📝 Toggle Source / Reading Mode | `Ctrl + Shift + S` |
+| 📆 Open Daily Note              | `Ctrl + Shift + D` |
+| ⏮️ Previous Daily Note          | `Alt + \`          |
+| ⏭️ Next Daily Note              | `Alt + /`          |
+| 🗓️ Open Monthly Note           | `Ctrl + Shift + M` |
+| 📅 Open Weekly Note             | `Ctrl + Shift + W` |
+| 💬 Manage Callouts              | `Alt + C`          |
+| 🎨 Switch Theme                 | `Alt + Ctrl + M`   |
+| ⌨️ Open Hotkeys Reference       | `Ctrl + Shift + K` |

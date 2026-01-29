@@ -1,40 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "01 Primeira Nota",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+      "basename": "Boas Vindas",
+      "path": "Boas Vindas.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "As 3 Areas ACE",
-      "path": "Atlas/Conceitos/As 3 Areas ACE.md"
-    },
-    {
-      "basename": "arc-flow",
-      "path": "X/Media/arc-flow.png"
-    },
-    {
-      "basename": "02 Markdown",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
-    },
-    {
       "basename": "🏠",
       "path": "🏠.md"
     },
     {
-      "basename": "@-templates",
-      "path": "X/Assets/Dataview/@-templates.md"
-    },
-    {
-      "basename": "+ Gestão de Conhecimento",
-      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
-    },
-    {
-      "basename": "11 Checklist",
-      "path": "Atlas/Index & Bases/11 Checklist.md"
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
     },
     {
       "basename": "08 ACE Pack",
@@ -45,20 +25,56 @@
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md"
     },
     {
-      "basename": "06 Boas Práticas de Classificação",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
-    },
-    {
-      "basename": "04 Entendendo Coleções",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
+      "basename": "02 Markdown",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
     },
     {
       "basename": "03 Propriedades",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md"
     },
     {
+      "basename": "+ Gestão de Conhecimento",
+      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "@-templates",
+      "path": "X/Assets/Dataview/@-templates.md"
+    },
+    {
+      "basename": "11 Checklist",
+      "path": "Atlas/Index & Bases/11 Checklist.md"
+    },
+    {
+      "basename": "_atalhos",
+      "path": "X/Assets/_atalhos.md"
+    },
+    {
+      "basename": "04 Entendendo Coleções",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
+    },
+    {
+      "basename": "10 dashboard++ (Template)",
+      "path": "Atlas/Index & Bases/10 dashboard++ (Template).md"
+    },
+    {
+      "basename": "Estrutura base",
+      "path": "Atlas/Conceitos/Estrutura base.md"
+    },
+    {
       "basename": "09 ARC Framework",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
+    },
+    {
+      "basename": "06 Boas Práticas de Classificação",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
+    },
+    {
+      "basename": "As 3 Areas ACE",
+      "path": "Atlas/Conceitos/As 3 Areas ACE.md"
+    },
+    {
+      "basename": "arc-flow",
+      "path": "X/Media/arc-flow.png"
     },
     {
       "basename": "Créditos-Atribuições",
@@ -109,10 +125,6 @@
       "path": "X/Media/Images/daily-capture.png"
     },
     {
-      "basename": "_atalhos",
-      "path": "X/Assets/_atalhos.md"
-    },
-    {
       "basename": "2025-12-11",
       "path": "Calendar & Review/Daily Notes/2025-12-11.md"
     },
@@ -139,10 +151,6 @@
     {
       "basename": "A-Weekly Note Template",
       "path": "X/Templates/Format/A-Weekly Note Template.md"
-    },
-    {
-      "basename": "10 dashboard++ (Template)",
-      "path": "Atlas/Index & Bases/10 dashboard++ (Template).md"
     },
     {
       "basename": "Boards",
@@ -173,10 +181,6 @@
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/05 Entendendo Mocs.md"
     },
     {
-      "basename": "Estrutura base",
-      "path": "Atlas/Conceitos/Estrutura base.md"
-    },
-    {
       "basename": "showcase",
       "path": "X/showcase.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "@ adicionar-imagem-centralizada",
       "path": "X/Templates/Snippet/@ adicionar-imagem-centralizada.md"
-    },
-    {
-      "basename": "A-Monthly-note-template",
-      "path": "X/Templates/Format/A-Monthly-note-template.md"
-    },
-    {
-      "basename": "_-img-link",
-      "path": "X/Templates/Snippet/_-img-link.md"
     }
   ],
   "omittedPaths": [],

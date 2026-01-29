@@ -12,6 +12,6 @@
   "autoConvertHtml": true,
   "userIgnoreFilters": null,
   "showLineNumber": false,
-  "trashOption": "local",
+  "trashOption": "system",
   "showIndentGuide": true
 }

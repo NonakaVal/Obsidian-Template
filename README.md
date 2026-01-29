@@ -1,26 +1,16 @@
 
-# Introdução 
-
 
 > ⚠️ Está vault é um template -   Não está Padrão do [Obisidian.md](https://obsidian.md/) -  Leia A apresentação Abaixo para o uso 
 
-
-
-
----
-
-
-
-
-Estrutura base para um vault do Obsidian contendo templates, snippets, bases de notas e scripts auxiliares.
-
 > 🔗 [Github Template Repo](https://github.com/NonakaVal/Obsidian-PKM-Intro-Template-Vault) -  ⬇️ `.zip` [Download Link](https://github.com/NonakaVal/Obsidian-PKM-Intro-Template-Vault/raw/refs/heads/main/Obsidian-PKM-Intro-Template-Vault.zip)
+
+
 
 # Alterações e estrutura de uso proposta
 
 
 
-# Conceitos Importantes
+## Conceitos Importantes
 
 - ![[As 3 Areas ACE]]
 - [[Estrutura base]]
@@ -84,21 +74,6 @@ LIMIT 10
 
 
 <br>
-
-# Próximos Passos 
-
-```meta-bind-button
-label: Começe Aqui (Tópicos em Ordem)
-hidden: false
-icon: space
-class: ""
-id: workspaces
-style: destructive
-actions:
-  - type: command
-    command: workspaces:load
-```
-
 
 
 

@@ -1,9 +1,9 @@
 {
   "desktop": {
     "bannerEnabled": true,
-    "height": 190,
+    "height": 410,
     "viewOffset": 0,
-    "noteOffset": 70,
+    "noteOffset": -102,
     "bannerRadius": [
       8,
       8,

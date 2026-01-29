@@ -7,7 +7,8 @@
 	- `Monthly Notes`
 	- `TaskNotes`
 	- `Weekly Notes`
-		- :LiFolderGit2: `Projects & Areas/` *(Projects and areas of responsibility)* 
-			- :LiFolderSync: `Areas`
-			- :LiFolderCheck: `Projects`
-- :LiSettings: `System/` *(Control notes and templates)
+- :LiBookMarked: `Memos/`  
+- :LiFolderGit2: `Projects & Areas/` *(Projects and areas of responsibility)* 
+	- :LiFolderSync: `Areas`
+	- :LiFolderCheck: `Projects`
+- :LiSettings: `X/` *(Control notes and templates)*

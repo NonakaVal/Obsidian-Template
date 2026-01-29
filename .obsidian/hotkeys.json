@@ -779,5 +779,23 @@
       ],
       "key": "W"
     }
+  ],
+  "theme:switch": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:X/Assets/_atalhos.md-new-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
   ]
 }

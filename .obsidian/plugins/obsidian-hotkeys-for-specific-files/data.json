@@ -7,6 +7,14 @@
     {
       "useMoment": false,
       "file": "🏠.md"
+    },
+    {
+      "useMoment": false,
+      "file": "X/Assets/_atalhos.md"
+    },
+    {
+      "useMoment": false,
+      "file": "README.md"
     }
   ],
   "useExistingPane": true,
