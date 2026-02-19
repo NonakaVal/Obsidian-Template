@@ -2484,7 +2484,7 @@
       "active": "b431c59ed53ec492",
       "mtime": "2026-02-15T05:23:36-03:00"
     },
-    "08 - Contribua para Meu Projeto": {
+    "08 - Considere apoiar o projeto 💛": {
       "main": {
         "id": "2178b4b13ad8d220",
         "type": "split",
@@ -2499,13 +2499,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "+/Contribua para Meu Projeto.md",
+                    "file": "+/08 - Considere apoiar o projeto 💛.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Contribua para Meu Projeto"
+                  "title": "Outline of 08 - Considere apoiar o projeto 💛"
                 }
               }
             ]
@@ -2535,13 +2535,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "+/Contribua para Meu Projeto.md",
+                    "file": "+/08 - Considere apoiar o projeto 💛.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Contribua para Meu Projeto"
+                  "title": "08 - Considere apoiar o projeto 💛"
                 }
               }
             ],
@@ -2612,8 +2612,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 344.5,
-        "collapsed": true
+        "width": 344.5
       },
       "right": {
         "id": "3703f7d8eaeb01fd",
@@ -2745,7 +2744,7 @@
         }
       },
       "active": "b431c59ed53ec492",
-      "mtime": "2026-02-19T19:19:56-03:00"
+      "mtime": "2026-02-19T20:03:52-03:00"
     }
   },
   "active": "Começe Aqui"
