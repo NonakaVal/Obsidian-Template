@@ -1,0 +1,63 @@
+views:
+  - type: table
+    name: Todas Notas
+    filters:
+      and:
+        - '!file.inFolder("Calendar & Review")'
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - file.backlinks
+    sort: []
+    columnSize:
+      file.folder: 364
+  - type: table
+    name: Atlas
+    filters:
+      and:
+        - file.inFolder("Atlas")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+  - type: table
+    name: X (Assets)
+    filters:
+      and:
+        - file.inFolder("X/Assets")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - summary
+  - type: table
+    name: X (Templates)
+    filters:
+      and:
+        - file.inFolder("X/Templates")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - summary
+  - type: table
+    name: X
+    filters:
+      and:
+        - file.inFolder("X")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.folder
+      - summary

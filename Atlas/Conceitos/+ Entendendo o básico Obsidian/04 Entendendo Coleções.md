@@ -12,4 +12,4 @@ Nota de controle das coleções 🔗 [[@_collections]].
 ---
 
  Seguir para ➡️ [[06 Boas Práticas de Classificação]]
- 
+

@@ -149,4 +149,3 @@ Use `\` antes de um caractere especial para exibi-lo literalmente.
 
  Seguir para ➡️  [[04 Entendendo Coleções]]
 
-

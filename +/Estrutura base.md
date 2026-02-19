@@ -1,0 +1,14 @@
+- `+/` *(Initial capture point for every created note.)*
+- :LiLibraryBig: `Atlas/` *(Study notes and concepts.)*
+	- `Concepts/` 
+	- `Mapas/` 
+- :LiCalendar: `Calendar & Review/`  *(Journal and planning.)*
+	- `Daily Notes/` 
+	- `Monthly Notes`
+	- `TaskNotes`
+	- `Weekly Notes`
+- :LiBookMarked: `Memos/`  
+- :LiFolderGit2: `Projects & Areas/` *(Projects and areas of responsibility)* 
+	- :LiFolderSync: `Areas`
+	- :LiFolderCheck: `Projects`
+- :LiSettings: `X/` *(Control notes and templates)*

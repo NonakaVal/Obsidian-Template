@@ -5,6 +5,14 @@
       "path": "Boas Vindas.md"
     },
     {
+      "basename": "Contribua para Meu Projeto",
+      "path": "+/Contribua para Meu Projeto.md"
+    },
+    {
+      "basename": "02 Markdown",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
+    },
+    {
       "basename": "01 Primeira Nota",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
     },
@@ -13,16 +21,16 @@
       "path": "X/Assets/_atalhos.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Obsidian Base",
+      "path": "+/Obsidian Base.base"
     },
     {
-      "basename": "Estrutura base",
-      "path": "Atlas/Conceitos/Estrutura base.md"
+      "basename": "@-templates",
+      "path": "X/Assets/Dataview/@-templates.md"
     },
     {
-      "basename": "As 3 Areas ACE",
-      "path": "Atlas/Conceitos/As 3 Areas ACE.md"
+      "basename": "+ Gestão de Conhecimento",
+      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
     },
     {
       "basename": "🏠",
@@ -33,32 +41,96 @@
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
     },
     {
-      "basename": "07 Sugestões de Classificações",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md"
+      "basename": "start-here",
+      "path": "X/start-here.md"
     },
     {
-      "basename": "02 Markdown",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
+      "basename": "04 Entendendo Coleções",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
+    },
+    {
+      "basename": "06 Boas Práticas de Classificação",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
+    },
+    {
+      "basename": "07 Sugestões de Classificações",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md"
     },
     {
       "basename": "03 Propriedades",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md"
     },
     {
-      "basename": "+ Gestão de Conhecimento",
-      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "@-templates",
-      "path": "X/Assets/Dataview/@-templates.md"
+      "basename": "Créditos-Atribuições",
+      "path": "Créditos-Atribuições.md"
+    },
+    {
+      "basename": "As 3 Areas ACE",
+      "path": "+/As 3 Areas ACE.md"
+    },
+    {
+      "basename": "Estrutura base",
+      "path": "+/Estrutura base.md"
+    },
+    {
+      "basename": "Boards",
+      "path": "Atlas/Index & Bases/Boards.base"
+    },
+    {
+      "basename": "2026-02-15",
+      "path": "Calendar & Review/Daily Notes/2026-02-15.md"
+    },
+    {
+      "basename": "T-new-note-collection",
+      "path": "X/Templates/Format/T-new-note-collection.md"
+    },
+    {
+      "basename": "Z-new-area-note",
+      "path": "X/Templates/Format/Z-new-area-note.md"
+    },
+    {
+      "basename": "Z-project note",
+      "path": "X/Templates/Format/Z-project note.md"
+    },
+    {
+      "basename": "T-new-area",
+      "path": "X/Templates/Format/T-new-area.md"
+    },
+    {
+      "basename": "T memo",
+      "path": "X/Templates/Format/T memo.md"
+    },
+    {
+      "basename": "A-Weekly Note Template",
+      "path": "X/Templates/Format/A-Weekly Note Template.md"
+    },
+    {
+      "basename": "A-Monthly-note-template",
+      "path": "X/Templates/Format/A-Monthly-note-template.md"
+    },
+    {
+      "basename": "A-Daily Note Template",
+      "path": "X/Templates/Format/A-Daily Note Template.md"
+    },
+    {
+      "basename": "_ base template",
+      "path": "X/Templates/Format/_ base template.md"
+    },
+    {
+      "basename": "T-new-project",
+      "path": "X/Templates/Format/T-new-project.md"
+    },
+    {
+      "basename": "2025-10-07",
+      "path": "Calendar & Review/Daily Notes/2025-10-07.md"
     },
     {
       "basename": "11 Checklist",
       "path": "Atlas/Index & Bases/11 Checklist.md"
-    },
-    {
-      "basename": "04 Entendendo Coleções",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
     },
     {
       "basename": "10 dashboard++ (Template)",
@@ -69,16 +141,8 @@
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
     },
     {
-      "basename": "06 Boas Práticas de Classificação",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
-    },
-    {
       "basename": "arc-flow",
       "path": "X/Media/arc-flow.png"
-    },
-    {
-      "basename": "Créditos-Atribuições",
-      "path": "Créditos-Atribuições.md"
     },
     {
       "basename": "rebuild vault cache",
@@ -101,26 +165,6 @@
       "path": "Projects & Areas/Projects/Ongoing/Projeto Exemplo/Projeto Exemplo.md"
     },
     {
-      "basename": "T-new-project",
-      "path": "X/Templates/Format/T-new-project.md"
-    },
-    {
-      "basename": "Z-project note",
-      "path": "X/Templates/Format/Z-project note.md"
-    },
-    {
-      "basename": "Z-new-area-note",
-      "path": "X/Templates/Format/Z-new-area-note.md"
-    },
-    {
-      "basename": "T-new-area",
-      "path": "X/Templates/Format/T-new-area.md"
-    },
-    {
-      "basename": "T-new-note-collection",
-      "path": "X/Templates/Format/T-new-note-collection.md"
-    },
-    {
       "basename": "daily-capture",
       "path": "X/Media/Images/daily-capture.png"
     },
@@ -137,10 +181,6 @@
       "path": "Calendar & Review/Daily Notes/2026-01-23.md"
     },
     {
-      "basename": "A-Daily Note Template",
-      "path": "X/Templates/Format/A-Daily Note Template.md"
-    },
-    {
       "basename": "2026-W04",
       "path": "Calendar & Review/Weekly Notes/2026-W04.md"
     },
@@ -149,52 +189,12 @@
       "path": "Calendar & Review/Monthly Notes/2026-01.md"
     },
     {
-      "basename": "A-Weekly Note Template",
-      "path": "X/Templates/Format/A-Weekly Note Template.md"
-    },
-    {
-      "basename": "Boards",
-      "path": "Atlas/Index & Bases/Boards.base"
-    },
-    {
       "basename": "2026-01-23-memo-Não Esquecer",
       "path": "Memos/2026-01-23-memo-Não Esquecer.md"
     },
     {
       "basename": "@_recent-created",
       "path": "X/Assets/Dataview/@_recent-created.md"
-    },
-    {
-      "basename": "@-collections",
-      "path": "X/Assets/Dataview/@-collections.md"
-    },
-    {
-      "basename": "T-new-note-base",
-      "path": "X/Templates/Format/T-new-note-base.md"
-    },
-    {
-      "basename": "nota 1",
-      "path": "+/nota 1.md"
-    },
-    {
-      "basename": "05 Entendendo Mocs",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/05 Entendendo Mocs.md"
-    },
-    {
-      "basename": "showcase",
-      "path": "X/showcase.md"
-    },
-    {
-      "basename": "@_created",
-      "path": "X/Assets/Dataview/@_created.md"
-    },
-    {
-      "basename": "Acessar Pro",
-      "path": "X/Acessar Pro.md"
-    },
-    {
-      "basename": "@ adicionar-imagem-centralizada",
-      "path": "X/Templates/Snippet/@ adicionar-imagem-centralizada.md"
     }
   ],
   "omittedPaths": [],
