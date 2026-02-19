@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "Boas Vindas",
       "path": "Boas Vindas.md"
+    },
+    {
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
     },
     {
       "basename": "08 - Considere apoiar o projeto 💛",
@@ -11,10 +19,6 @@
     {
       "basename": "02 Markdown",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
-    },
-    {
-      "basename": "01 Primeira Nota",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
     },
     {
       "basename": "_atalhos",
@@ -59,10 +63,6 @@
     {
       "basename": "03 Propriedades",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Créditos-Atribuições",

@@ -9,14 +9,6 @@
 # Alterações e estrutura de uso proposta
 
 
-
-## Conceitos Importantes
-
-- ![[As 3 Areas ACE]]
-- [[Estrutura base]]
-
-<br>
-
 # Funcionalidades
 
 
@@ -53,19 +45,6 @@ SORT file.name asc
 LIMIT 10
 ```
 ````
-
-
-####  🗄️ Bases  
-
-
-> Visualizações
-> - Templates
-> - Assets
-> - Snippets de CSS de: https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets
-
-<center>
-  <img src="https://imgur.com/DVkq04P.jpg" width="100%">
-</center>
 
 
 #### ⌨️ Atalhos de teclado

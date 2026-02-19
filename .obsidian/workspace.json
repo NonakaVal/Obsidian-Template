@@ -25,6 +25,21 @@
             }
           },
           {
+            "id": "ae58bffc2419f6e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
             "id": "b431c59ed53ec492",
             "type": "leaf",
             "state": {
@@ -39,7 +54,8 @@
               "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,16 +267,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2f4da4148c8faf6f",
+  "active": "ae58bffc2419f6e7",
   "lastOpenFiles": [
+    "Boas Vindas.md",
+    "README.md",
+    "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
     "Obsidian-Template.zip",
     "+/08 - Considere apoiar o projeto 💛.md",
     "+/Contribua para Meu Projeto.md",
     "Arquivo compactado.zip",
     "Arquivo compactado.zip.m7e2sn.part",
-    "Boas Vindas.md",
     "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md",
-    "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
     "X/Assets/_atalhos.md",
     "+/Obsidian Base.base",
     "X/Assets/Dataview/@-templates.md",
@@ -273,7 +290,6 @@
     "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md",
     "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md",
     "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md",
-    "README.md",
     "Créditos-Atribuições.md",
     "+/As 3 Areas ACE.md",
     "+/Estrutura base.md",
@@ -298,7 +314,6 @@
     "Obsidian-PKM-Intro-Template-Vault/X/Media/Images/Acessar Pro 1.png",
     "Obsidian-PKM-Intro-Template-Vault/X/Templates/Snippet",
     "Obsidian-PKM-Intro-Template-Vault/X/Templates/Format",
-    "Obsidian-PKM-Intro-Template-Vault/X/Media/Images",
     "+/nen-system-hxh.canvas",
     "Projects & Areas/Projects/Archives/independent/webdesign/web.design.canvas",
     "Projects & Areas/Projects/Ongoing/Obsidian Community/Untitled.canvas",
