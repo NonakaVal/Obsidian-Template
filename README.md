@@ -23,33 +23,17 @@
 
 > Registros rápidos nas notas diárias
 
-![[daily-capture.png]]
+![Imgur](https://imgur.com/AclMjHY.png)
 
 #### ⚡ Templates
 
+![Imgur](https://imgur.com/i8xdCwP.png)
 
-````tabs
-tab: Formatação
-
-```dataview
-TABLE without id file.link as "Template"
-FROM "X/Templates/Format"
-SORT file.name asc
-LIMIT 7
-```
-tab: Snippets
-```dataview
-TABLE without id file.link as "Template"
-FROM "X/Templates/Snippet"
-SORT file.name asc
-LIMIT 10
-```
-````
 
 
 #### ⌨️ Atalhos de teclado
 
-![[_atalhos]]
+![Imgur](https://imgur.com/SSHbQRZ.png)
 
 
 <br>

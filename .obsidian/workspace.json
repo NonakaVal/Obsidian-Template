@@ -25,18 +25,42 @@
             }
           },
           {
-            "id": "ae58bffc2419f6e7",
+            "id": "110dd5f3fd00896a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "X/Media/Images/rebuild vault cache.png"
+              },
+              "icon": "lucide-image",
+              "title": "rebuild vault cache"
+            }
+          },
+          {
+            "id": "f999b9c1258f2085",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "X/Assets/_atalhos.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "_atalhos"
+            }
+          },
+          {
+            "id": "faed7267e3ec678f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "X/Media/Images/daily-capture.png"
+              },
+              "icon": "lucide-image",
+              "title": "daily-capture"
             }
           },
           {
@@ -267,10 +291,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ae58bffc2419f6e7",
+  "active": "110dd5f3fd00896a",
   "lastOpenFiles": [
-    "Boas Vindas.md",
     "README.md",
+    "X/Assets/_atalhos.md",
+    "X/Media/Images/daily-capture.png",
+    "Boas Vindas.md",
     "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
     "Obsidian-Template.zip",
     "+/08 - Considere apoiar o projeto 💛.md",
@@ -278,7 +304,6 @@
     "Arquivo compactado.zip",
     "Arquivo compactado.zip.m7e2sn.part",
     "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md",
-    "X/Assets/_atalhos.md",
     "+/Obsidian Base.base",
     "X/Assets/Dataview/@-templates.md",
     "Atlas/Index & Bases/+ Gestão de Conhecimento.md",
@@ -311,7 +336,6 @@
     "Obsidian-PKM-Intro-Template-Vault/X/Media/Images/Acessar Pro.png",
     "Obsidian-PKM-Intro-Template-Vault/X/Media/Images/Acessar Pro 3.png",
     "Obsidian-PKM-Intro-Template-Vault/X/Media/Images/Acessar Pro 2.png",
-    "Obsidian-PKM-Intro-Template-Vault/X/Media/Images/Acessar Pro 1.png",
     "Obsidian-PKM-Intro-Template-Vault/X/Templates/Snippet",
     "Obsidian-PKM-Intro-Template-Vault/X/Templates/Format",
     "+/nen-system-hxh.canvas",

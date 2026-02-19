@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "rebuild vault cache",
+      "path": "X/Media/Images/rebuild vault cache.png"
+    },
+    {
       "basename": "README",
       "path": "README.md"
+    },
+    {
+      "basename": "_atalhos",
+      "path": "X/Assets/_atalhos.md"
+    },
+    {
+      "basename": "daily-capture",
+      "path": "X/Media/Images/daily-capture.png"
     },
     {
       "basename": "Boas Vindas",
@@ -19,10 +31,6 @@
     {
       "basename": "02 Markdown",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
-    },
-    {
-      "basename": "_atalhos",
-      "path": "X/Assets/_atalhos.md"
     },
     {
       "basename": "Obsidian Base",
@@ -145,10 +153,6 @@
       "path": "X/Media/arc-flow.png"
     },
     {
-      "basename": "rebuild vault cache",
-      "path": "X/Media/Images/rebuild vault cache.png"
-    },
-    {
       "basename": "como + funciona",
       "path": "+/como + funciona.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "Projeto Exemplo",
       "path": "Projects & Areas/Projects/Ongoing/Projeto Exemplo/Projeto Exemplo.md"
-    },
-    {
-      "basename": "daily-capture",
-      "path": "X/Media/Images/daily-capture.png"
     },
     {
       "basename": "2025-12-11",
